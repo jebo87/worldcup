@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Match from './components/Match';
+import MatchCompleted from './components/MatchCompleted';
 
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';

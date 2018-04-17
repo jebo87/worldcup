@@ -1,0 +1,118 @@
+.match_score{
+    font-size: 4.8rem;
+    color: $salmon;
+    margin-left:3rem;
+
+}
+
+.match_team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.match_country{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    img{
+        width: 5.4rem;
+        height: 3.2rem;
+        margin: 0 0 0.5rem 0;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.2)
+    }
+
+    p {
+        margin:0;
+        padding:0;
+       font-size: 2.4rem;
+       
+
+    }
+
+}
+
+.match_center{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p{
+        margin:0;
+        font-size: 2rem;
+    }
+    .vs{
+        font-size: 1.8rem;
+        color:$salmon;
+    }
+    .time{
+        font-size: 1.8rem;
+        
+    }
+}
+
+
+.ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 1.2rem;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: $lime_green;
+    background: linear-gradient($lime_green_light 0%, $lime_green 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px; right: -21px;
+  }
+  
+  .ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid $lime_green;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid $lime_green;
+  }
+  .ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid $lime_green;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid $lime_green;
+  }
+
+  .ribbon_pink span {
+      color:#fff;
+    background: $salmon;
+    background: linear-gradient(lighten($salmon,5%) 0%, $salmon 100%);
+  }
+  
+  .ribbon_pink span::before {
+    content: "";
+    border-left: 3px solid $salmon;
+    border-top: 3px solid $salmon;
+  }
+  .ribbon_pink span::after {
+    content: "";
+    border-right: 3px solid $salmon;
+    border-top: 3px solid $salmon;
+  }
