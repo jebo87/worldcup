@@ -1,7 +1,8 @@
 import React from 'react';
-import flags from '../helpers/flags';
 
 export default class Match extends React.Component {
+    
+    
     render() {
         return (
             // Es mejor hacer dos componentes diferentes. uno para matches finalizados y otro para los demas
@@ -9,24 +10,24 @@ export default class Match extends React.Component {
 
                 <div className="match_team">
                     <div className="match_country">
-                        <img src={flags[0].flag} alt="" />
-                        <p>RUSIA</p>
+                        <img src={this.props.flag[0]} alt="" />
+                        <p>{this.props.match.teamA}</p>
                     </div>
-                    <p className="match_score">2</p>
+                    <p className="match_score">{this.props.match.scoreA}</p>
                 </div>
                 <div className="match_center">
-                    <p>GRUPO A</p>
+                    <p>GRUPO {this.props.match.group}</p>
                     <p className="vs">vs</p>
-                    <p className="time">11:00AM</p>
+                    <p className="time">{this.props.match.date}</p>
                 </div>
                 <div className="match_team">
                     <div className="match_country">
-                        <img src={flags[1].flag} alt="" />
-                        <p>A. SAUDITA</p>
+                        <img src={this.props.flag[1]} alt="" />
+                        <p>{this.props.match.teamB}</p>
                     </div>
-                    <p className="match_score">0</p>
+                    <p className="match_score">{this.props.match.scoreB}</p>
                 </div>
-                <div class="ribbon"><span>enviado</span></div>
+                <div className="ribbon"><span>enviado</span></div>
             </div>
         )
     }

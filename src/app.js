@@ -1,11 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Match from './components/Match';
-import MatchCompleted from './components/MatchCompleted';
+import {Provider} from 'react-redux';
+
+import configureStore from './store/configureStore';
+import AppRouter from './routers/AppRouter';
+import { firebaseApp } from './helpers/database';
 
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 
-console.log('hola');
+// firebaseApp.auth().createUserWithEmailAndPassword('jebo87@gmail.com', 'micontra123').catch(function(error) {
+//     // Handle Errors here.
+//     var errorCode = error.code;
+//     var errorMessage = error.message;
 
-ReactDOM.render(<Match />,document.getElementById('app'));
+//     console.log(errorCode,errorMessage);
+//     // ...
+//   });
+
+const store = configureStore(); 
+const jsx = (
+    <Provider store={store}>
+        <AppRouter />
+    </Provider>
+);
+ReactDOM.render(jsx, document.getElementById('app'));

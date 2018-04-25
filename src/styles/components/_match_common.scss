@@ -1,7 +1,13 @@
+.match, .match_completed{
+    cursor: pointer;
+}
+.match:hover, .match_completed:hover{
+    background: darken($dark_gray,10%)
+}
 .match_score{
     font-size: 4.8rem;
     color: $salmon;
-    margin-left:3rem;
+    margin-left:1rem;
 
 }
 
@@ -18,6 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 11rem;
     
     img{
         width: 5.4rem;
@@ -30,6 +37,7 @@
         margin:0;
         padding:0;
        font-size: 2.4rem;
+       text-transform: uppercase;
        
 
     }
