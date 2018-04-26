@@ -1,31 +1,57 @@
 const matches = {
-    match1: {
-        date: '14/06/2018',
-        group: 'A',
-        time: '11:00',
-        teamA: 'rusia',
-        teamB: 'a. saudita',
-        scoreA: '0',
-        scoreB: '0'
+    fecha1:{
+        date:'14-06-2018',
+        matches:{
+            match1: {
+                group: 'A',
+                time: '11:00',
+                teamA: 'rusia',
+                teamB: 'a. saudita',
+                scoreA: '0',
+                scoreB: '0',
+                scores:{
+                    Ns9tgazaRCPv2BWv1BoDS3HhZIE2:{
+                        scoreA:'1',
+                        scoreB:'0'        
+                    }
+                }
+            }
+        }
     },
-    match2: {
-        date: '15/06/2018',
-        group: 'A',
-        time: '11:00',
-        teamA: 'egipto',
-        teamB: 'uruguay',
-        scoreA: '0',
-        scoreB: '0'
-    },
-    match3: {
-        date: '15/06/2018',
-        group: 'A',
-        time: '11:00',
-        teamA: 'marruecos',
-        teamB: 'iran',
-        scoreA: '0',
-        scoreB: '0'
-    },
+    fecha2:{
+        date:'15-06-2018',
+        matches:{
+            match1: {
+                date: '15/06/2018',
+                group: 'A',
+                time: '11:00',
+                teamA: 'egipto',
+                teamB: 'uruguay',
+                scoreA: '0',
+                scoreB: '0',
+                scores:{
+                    Ns9tgazaRCPv2BWv1BoDS3HhZIE2:{
+                        scoreA:'0',
+                        scoreB:'0'        
+                    }
+                }
+            },
+            match2: {
+                date: '15/06/2018',
+                group: 'A',
+                time: '11:00',
+                teamA: 'marruecos',
+                teamB: 'iran',
+                scoreA: '0',
+                scoreB: '0',
+                scores:{
+                   
+                }
+            },
+        }
+    }
+    ,
+    
     match4: {
         date: '15/06/2018',
         group: 'A',

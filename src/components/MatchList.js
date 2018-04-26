@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import matches from '../helpers/schedule_dummy';
 import Match from '../components/Match';
 import flags from '../helpers/flags';
-import { MergeMapSubscriber } from 'rxjs/operators/mergeMap';
 
 class MatchList extends React.Component {
     matchKeys = Object.keys({ ...matches });
@@ -39,7 +38,7 @@ class MatchList extends React.Component {
                         )
                     )
                 }
-                MatchList
+                
             </div>
         );
 

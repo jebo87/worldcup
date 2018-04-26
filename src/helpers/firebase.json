@@ -1,0 +1,59 @@
+{
+    "fechas": {
+        "14-06-2018": {
+            "matches": {
+                "match1": {
+                    "group": "A",
+                    "time": "11:00",
+                    "teamA": "rusia",
+                    "teamB": "a. saudita",
+                    "scoreA": "0",
+                    "scoreB": "0",
+                    "scores": {
+                        "Ns9tgazaRCPv2BWv1BoDS3HhZIE2": {
+                            "scoreA": "1",
+                            "scoreB": "0"
+                        }
+                    }
+                }
+            }
+        },
+        "15-06-2018": {
+            "matches": {
+                "match1": {
+                    "group": "A",
+                    "time": "11:00",
+                    "teamA": "egipto",
+                    "teamB": "uruguay",
+                    "scoreA": "0",
+                    "scoreB": "0",
+                    "scores": {
+                        "Ns9tgazaRCPv2BWv1BoDS3HhZIE2": {
+                            "scoreA": "0",
+                            "scoreB": "0"
+                        }
+                    }
+                },
+                "match2": {
+                    "group": "A",
+                    "time": "11:00",
+                    "teamA": "marruecos",
+                    "teamB": "iran",
+                    "scoreA": "0",
+                    "scoreB": "0",
+                    "scores": {
+                        "Ns9tgazaRCPv2BWv1BoDS3HhZIE2": {
+                            "scoreA": "0",
+                            "scoreB": "0"
+                        }
+                    }
+                }
+            }
+        }
+
+    },
+
+    "puntos": {
+        "Ns9tgazaRCPv2BWv1BoDS3HhZIE2": "0"
+    }
+}

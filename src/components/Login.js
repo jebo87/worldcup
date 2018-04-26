@@ -4,17 +4,17 @@ import { firebaseApp } from '../helpers/database';
 import { mapTo } from 'rxjs/operators';
 import { setUser } from '../actions/userActions';
 class Login extends React.Component {
-    state = {
-        user: {
-            email: 'jebo87@gmail.com',
-            password: 'bautista87',
-            
-        }
-    };
+
     constructor(props) {
         super(props);
-       
-       
+        this.state = {
+            user: {
+                email: 'jbautista@powertrunk.com',
+                password: 'micontra123',
+
+            }
+        };
+
     }
 
 
@@ -23,22 +23,11 @@ class Login extends React.Component {
 
         const email = this.state.user.email;
         const password = this.state.user.password;
+
         firebaseApp.auth().signInWithEmailAndPassword(email, password)
             .then((user) => {
-                console.log(user.email);
-                // this.setState(() => (
-                //     {
-                //         user: {
-                           
-                //             email: user.email
-                //         }
-                //     }
-                // ));
-
-                this.props.dispatch(setUser({email:user.email,userId:user.uid}));
+                this.props.dispatch(setUser({ email: user.email, userId: user.uid }));
                 this.props.history.push('/');
-
-
             })
             .catch(function (error) {
                 // Handle Errors here.
@@ -52,12 +41,12 @@ class Login extends React.Component {
     }
     handleEmailChange = (e) => {
         const email = e.target.value;
-        this.setState(() => ({ user: { email } }));
-    }
+        this.setState(() => ({ user: { ...this.state.user,email } }));
+    };
     handlePasswordChange = (e) => {
         const password = e.target.value;
-        this.setState(() => ({ user: { password } }));
-    }
+        this.setState(() => ({ user: { ...this.state.user, password } }));
+    };
     componentDidMount() {
 
     }

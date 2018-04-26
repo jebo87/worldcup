@@ -2,17 +2,14 @@ import React from 'react';
 import {BrowserRouter, Switch,Route} from 'react-router-dom';
 import Login from '../components/Login';
 import Header from '../components/Header'
-import MatchList from '../components/MatchList';
+import HomePage from '../components/HomePage';
 
 const AppRouter = ()=>(
     <BrowserRouter>
-        <div>
-        <Header></Header>
-            <Switch>
-                <Route path="/" component={MatchList} exact={true} />
+        <Switch>
+                <Route path="/" component={HomePage} exact={true} />
                 <Route path="/login" component={Login} />
             </Switch>
-        </div>
     </BrowserRouter>
 );
 

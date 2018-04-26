@@ -9,7 +9,7 @@ import { firebaseApp } from './helpers/database';
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 
-// firebaseApp.auth().createUserWithEmailAndPassword('jebo87@gmail.com', 'micontra123').catch(function(error) {
+// firebaseApp.auth().createUserWithEmailAndPassword('jbautista@powertrunk.com', 'micontra123').catch(function(error) {
 //     // Handle Errors here.
 //     var errorCode = error.code;
 //     var errorMessage = error.message;

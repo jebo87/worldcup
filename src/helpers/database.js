@@ -10,6 +10,6 @@ const  config = {
     messagingSenderId: "***REMOVED***"
   };
 const firebaseApp = firebase.initializeApp(config);
-
-export {firebaseApp}
+const database = firebase.database();
+export {firebaseApp, database as default}
 
