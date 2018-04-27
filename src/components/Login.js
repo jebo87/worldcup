@@ -9,8 +9,8 @@ class Login extends React.Component {
         super(props);
         this.state = {
             user: {
-                email: 'jbautista@powertrunk.com',
-                password: 'micontra123',
+                email: 'jebo87@gmail.com',
+                password: 'bautista87',
 
             }
         };
@@ -27,6 +27,7 @@ class Login extends React.Component {
         firebaseApp.auth().signInWithEmailAndPassword(email, password)
             .then((user) => {
                 this.props.dispatch(setUser({ email: user.email, userId: user.uid }));
+                localStorage.setItem('worldcup_usr',user.uid);
                 this.props.history.push('/');
             })
             .catch(function (error) {

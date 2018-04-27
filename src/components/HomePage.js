@@ -2,26 +2,35 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Header from './Header';
 import { startSetMatches } from '../actions/matchesActions';
+import Fecha from './Fecha';
 
 class HomePage extends React.Component {
 
-    componentWillMount() {
-        this.props.dispatch(startSetMatches());
-    }
+
+    loading = true;
+
+
     componentDidMount() {
-        console.log(Object.keys(this.props.fechas));
+
+        this.props.dispatch(startSetMatches());
+
     }
     render() {
-
+        const matchDates = Object.keys(this.props.fechas);       
         return (
 
             <div>
                 <Header history={this.props.history} />
-                {Object.keys(this.props.fechas).map((fecha) => (
-                    <p>
-                    {fecha}</p>
-                ))
+                {matchDates.length === 0 ? (<p> loading... </p>) :
+
+
+                    matchDates.map((fecha) => (
+
+                        <Fecha matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} />
+
+                    ))
                 }
+
             </div>
         )
 

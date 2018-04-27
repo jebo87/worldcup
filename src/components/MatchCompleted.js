@@ -1,7 +1,9 @@
 import React from 'react';
 import flags from '../helpers/flags';
-
-export default class Match extends React.Component {
+import {connect} from 'react-redux';
+class MatchCompleted extends React.Component {
+    user = this.props.user.userId;
+    scores = this.props.match.scores?this.props.match.scores[this.user]:undefined;
     render() {
         return (
             // Es mejor hacer dos componentes diferentes. uno para matches finalizados y otro para los demas
@@ -9,10 +11,10 @@ export default class Match extends React.Component {
                 <div className="match_top">
                     <div className="match_team">
                         <div className="match_country">
-                            <img src={flags[0].flag} alt="" />
-                            <p>RUSIA</p>
+                            <img src={this.props.flag[0]} alt="" />
+                            <p>{this.props.match.teamA}</p>
                         </div>
-                        <p className="match_score">2</p>
+                        <p className="match_score">{this.scores && this.scores.scoreA}</p>
                     </div>
                     <div className="match_center">
                         <p>GRUPO A</p>
@@ -21,10 +23,10 @@ export default class Match extends React.Component {
                     </div>
                     <div className="match_team">
                         <div className="match_country">
-                            <img src={flags[1].flag} alt="" />
-                            <p>A. SAUDITA</p>
+                            <img src={this.props.flag[1]} alt="" />
+                            <p>{this.props.match.teamB}</p>
                         </div>
-                        <p className="match_score">0</p>
+                        <p className="match_score">{this.scores && this.scores.scoreB}</p>
                     </div>
                 </div>
                 <div className="match_bottom">
@@ -32,7 +34,7 @@ export default class Match extends React.Component {
                         <div className="match_bottom_text_pink">
                             Resultado real:
                          </div>
-                        Rusia 3 - A. Saudita 1
+                        {this.props.match.teamA} {this.props.match.scoreA} - {this.props.match.teamB} {this.props.match.scoreB}
                     </div>
                     <div className="match_bottom_text">
                     <div className="match_bottom_text_pink">
@@ -42,9 +44,16 @@ export default class Match extends React.Component {
                 </div>
 
                 </div>
-                <div class="ribbon ribbon_pink"><span>Finalizado</span></div>
+                <div className="ribbon ribbon_pink"><span>Finalizado</span></div>
             </div>
         )
     }
 }
 
+const mapStateToProps = (state,props) =>{
+    return {
+        user: state.user
+    }
+}
+
+export default connect(mapStateToProps)(MatchCompleted);

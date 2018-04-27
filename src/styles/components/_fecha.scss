@@ -1,0 +1,14 @@
+.fecha {
+    width: 90%;
+    background: darken($light_gray,10%);
+    margin-bottom: 3rem;
+    padding: 0.3rem;
+    padding:2rem;
+}
+
+.fecha_title {
+    font-family: $anton;
+    text-transform: capitalize;
+    font-size: 4.8rem;
+    color: $salmon
+}

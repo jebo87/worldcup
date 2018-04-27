@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import {setUser} from '../actions/userActions';
 
 class Header extends React.Component {
     constructor(props){
@@ -7,13 +8,18 @@ class Header extends React.Component {
     }
     render() {
         return (
-            <div>Header - Welcome {this.props.user.email}</div>
+            <div>Header - Welcome {this.props.user.userId}</div>
         );
     }
     componentWillMount() {
-        if (!this.props.user.userId) {
-            this.props.history.push('/login');
-        }
+         if (!this.props.user.userId&&!localStorage.getItem('worldcup_usr')) {
+             this.props.history.push('/login');
+            }
+         
+             if(localStorage.getItem('worldcup_usr')&&!this.props.user.userId){
+                this.props.dispatch(setUser({ email: '', userId: localStorage.getItem('worldcup_usr') }));
+             }
+         
     }
 }
 

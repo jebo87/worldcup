@@ -8,7 +8,12 @@ export const setMatches = (fechas = {}) => (
 
 export const startSetMatches = () => {
     return (dispatch) => {
-        return database.ref('fechas').once('value').then((snapshot) => {
+        // return database.ref('fechas').on('value').then((snapshot) => {
+        //     let fechas = {};
+        //     fechas = snapshot.val() ;
+        //     dispatch(setMatches(fechas));
+        // });
+        return database.ref('fechas').on('value',(snapshot) => {
             let fechas = {};
             fechas = snapshot.val() ;
             dispatch(setMatches(fechas));
