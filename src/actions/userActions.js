@@ -5,4 +5,11 @@ export const setUser = (user) => (
           ...user
         }
     }
-)
+);
+
+export const deleteUser = ()=>(
+    {
+        type: 'DELETE_USER',
+        user:{undefined}
+    }
+);

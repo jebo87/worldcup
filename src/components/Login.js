@@ -1,8 +1,8 @@
 import React from 'react';
-import { connect } from 'react-redux'
 import { firebaseApp } from '../helpers/database';
-import { mapTo } from 'rxjs/operators';
-import { setUser } from '../actions/userActions';
+import username from '../images/user.png';
+import password from '../images/password.png';
+
 class Login extends React.Component {
 
     constructor(props) {
@@ -23,26 +23,28 @@ class Login extends React.Component {
 
         const email = this.state.user.email;
         const password = this.state.user.password;
+        const props = this.props;
 
         firebaseApp.auth().signInWithEmailAndPassword(email, password)
             .then((user) => {
-                this.props.dispatch(setUser({ email: user.email, userId: user.uid }));
-                localStorage.setItem('worldcup_usr',user.uid);
-                this.props.history.push('/');
+                console.log(this.props);
+                this.props.onSubmit(
+                    user
+                )
             })
-            .catch(function (error) {
-                // Handle Errors here.
-                var errorCode = error.code;
-                var errorMessage = error.message;
+        // .catch(function (error) {
+        //     // Handle Errors here.
+        //     var errorCode = error.code;
+        //     var errorMessage = error.message;
 
-                console.log(errorCode, errorMessage);
-                // ...
-            });
+        //     console.log(errorCode, errorMessage);
+        //     // ...
+        // });
 
     }
     handleEmailChange = (e) => {
         const email = e.target.value;
-        this.setState(() => ({ user: { ...this.state.user,email } }));
+        this.setState(() => ({ user: { ...this.state.user, email } }));
     };
     handlePasswordChange = (e) => {
         const password = e.target.value;
@@ -53,16 +55,20 @@ class Login extends React.Component {
     }
     render() {
         return (
-            <div>
-                <form onSubmit={this.login}>
-                    <input type="text" id="email" value={this.state.user.email} onChange={this.handleEmailChange} />
-                    <input type="password" id="password" value={this.state.user.password} onChange={this.handlePasswordChange} />
+            <React.Fragment >
+                <form onSubmit={this.login} className="login-box">
+                    <div className="input_login">
+                        <input type="text" id="email" value={this.state.user.email} onChange={this.handleEmailChange} />
+                    </div>
+                    <div className="input_login input_login--password">
+                        <input type="password" id="password" value={this.state.user.password} onChange={this.handlePasswordChange} />
+                    </div>
                     <button>Login</button>
                 </form>
 
 
 
-            </div>
+            </React.Fragment>
         )
     }
 
@@ -70,4 +76,4 @@ class Login extends React.Component {
 
 
 
-export default connect()(Login);
+export default Login;

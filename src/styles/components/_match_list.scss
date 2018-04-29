@@ -5,3 +5,9 @@
     flex-wrap: wrap;
 
 }
+
+@media screen and (max-width:$mobile){
+    .match_list{
+        justify-content: space-around;
+    }
+}

@@ -19,7 +19,7 @@ class HomePage extends React.Component {
         const matchDates = Object.keys(this.props.fechas);       
         return (
 
-            <div>
+            <React.Fragment>
                 <Header history={this.props.history} />
                 {matchDates.length === 0 ? (<p> loading... </p>) :
 
@@ -31,7 +31,7 @@ class HomePage extends React.Component {
                     ))
                 }
 
-            </div>
+            </React.Fragment>
         )
 
     }

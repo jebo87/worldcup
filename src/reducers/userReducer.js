@@ -9,6 +9,10 @@ const userReducer = (state = userReducerDefaultState, action) => {
             return {
                 ...action.user
             };
+        case 'DELETE_USER':
+            return {
+                
+            };
         default:
             return state;
 

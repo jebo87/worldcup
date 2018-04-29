@@ -1,8 +1,9 @@
 .fecha {
-    width: 90%;
+    margin: 0 auto;
+    width: 95%;
     background: darken($light_gray,10%);
     margin-bottom: 3rem;
-    padding: 0.3rem;
+    
     padding:2rem;
 }
 
@@ -10,5 +11,17 @@
     font-family: $anton;
     text-transform: capitalize;
     font-size: 4.8rem;
-    color: $salmon
+    font-weight: 400;
+    color: $salmon;
+    padding-left:2rem;
+}
+
+@media screen and (max-width:$mobile){
+    .fecha{
+        width:100%;
+        padding:2rem 0;
+    }
+    .fecha_title{
+        font-size: 3.5rem;
+    }
 }
