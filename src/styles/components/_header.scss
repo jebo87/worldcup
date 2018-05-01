@@ -1,4 +1,3 @@
-
 .header {
     width: 100%;
     background-color: $salmon;
@@ -8,23 +7,21 @@
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    line-height: 7.2rem;
-    // padding: 0 2rem;
+    line-height: 7.2rem; // padding: 0 2rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    
+    align-items: center;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 3rem;
-   
-    
 }
-.header_responsive{
-    height:35rem;
+
+.header_responsive {
+    height: 35rem;
     transition: height 0.25s ease-in;
 }
 
-.header_normal{
+.header_normal {
     height: 7.2rem;
     transition: height 0.25s ease-out;
 }
@@ -45,33 +42,47 @@
     color: #efefef;
     padding: 0 1rem;
     margin: 0 0.6rem 0 0;
-   
-    text-align:left;
+    text-align: left;
 }
-.header_userleft{
-    display:none;
+
+.header_userleft {
+    display: none;
 }
-.header_userright{
-    text-align:right;
-    //this is to send the text to the right.
-    margin-left:auto;
+
+.header_userright {
+    text-align: right; //this is to send the text to the right.
+    margin-right: 4rem;
+    color:#efefef;
 }
+
+.header_image {
+    width: 4rem;
+    height: 4rem;
+    border:0rem;
+    border-radius: 0.4rem;
+    line-height: normal;
+    margin-left: auto;
+    margin-right:2rem;
+    
+}
+
 
 .header>a:hover {
     background-color: darken($salmon, 5%);
 }
 
 @media screen and (max-width: $mobile) {
-    .header,.header_responsive{
+    .header,
+    .header_responsive {
         overflow: hidden;
         flex-direction: column;
         margin-bottom: 1rem;
     }
-    .header_userleft{
-        display:inline;
+    .header_userleft {
+        display: inline;
     }
-    .header_userright{
-        display:none;
+    .header_userright {
+        display: none;
     }
     .header_links {
         // display: none;

@@ -1,0 +1,151 @@
+.ReactModalPortal .ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 200ms ease-in-out;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.ReactModalPortal >div {
+    opacity:0;
+}
+.ReactModalPortal .ReactModal__Overlay--after-open{
+    opacity:1;
+}
+.ReactModalPortal .ReactModal__Overlay--before-close{
+    opacity:0;
+}
+
+.modal {
+    
+    color: white;
+    outline: none;
+    padding: 2rem;
+    text-align: center;
+    
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $anton;
+    .score_box {
+        width: 68.7rem;
+        height: 41.9rem;
+        background: $light_gray;
+    }
+    .pink_button {
+        width: 50%;
+        margin-top:0;
+    }
+    .top_score_box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding:2rem;
+        height: 29rem;
+    }
+    .scores_teams{
+        display: flex;
+        flex-direction: row;
+        height:100%;
+        justify-content: space-between;
+    }
+    .score{
+        color: $salmon;
+        font-size: 14.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+       
+        a{
+            font-size: 4.8rem;
+            margin:0 1rem;
+        }
+    }
+    .team_text {
+        
+        font-size: 4.8rem;
+        text-transform: uppercase;
+        color: #555;
+        writing-mode: vertical-rl;
+    }
+    .teamA {
+        
+        transform: rotate(180deg);
+    }
+    .flags{
+        display: flex;
+        flex-direction: row;
+        color:$salmon;
+        justify-content: center;
+        .group{
+            color:#555;
+            text-transform: uppercase;
+            width: 10rem;
+        }
+        img{
+            border:0;
+            margin: 0 10rem;
+        }
+
+    }
+    .middle{
+        color:$salmon;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+        .dash{
+            font-size: 14.4rem;
+        }
+    }
+    
+}
+
+@media screen and (max-height:$mobile_wide){
+    .modal {
+        .top_score_box {
+            
+            height: auto;
+        }
+        .score_box {
+            width: 58.7rem;
+            height: 33.9rem;
+            background: $light_gray;
+        }
+        
+       
+        .scores_teams{
+          
+            height:70%;
+           
+        }
+        .score{
+            font-size: 10rem;
+           
+            a{
+                font-size: 3rem;
+            }
+        }
+        .team_text {
+            font-size: 4.3rem;
+           
+        }
+        
+        .flags{
+            img{
+                
+                margin: 0 5rem;
+            }
+    
+        }
+        .middle{
+            font-size: 10rem;
+            .dash{
+                font-size: 14.4rem;
+            }
+        }
+        
+    }
+}

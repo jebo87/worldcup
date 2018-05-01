@@ -5,56 +5,50 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
     input {
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
         line-height: 4rem;
         margin-bottom: 1rem;
         border: none;
         padding: 0.5rem;
-        padding-left:4rem;
-        width: 100%;
-        
+        padding-left: 4rem;
+        width: 87%;
     }
-
-    .input_login{
+    .input_login {
         box-sizing: border-box;
         position: relative;
-        left:0;
-        width: 100%;
-        
-      
+        left: 0;
+        width: 80%;
     }
-    .input_login:before{
-        content:"";
-        position:absolute;
-        top:0;
-        left:0;
-        width:3rem;
-        height:100%;
-        margin-top:1rem;
-        margin-left:0.3rem;
-        background:url('/images/user.png') no-repeat; 
+    .input_login:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3rem;
+        height: 100%;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+        background: url('/images/user.png') no-repeat;
         background-size: 3rem;
     }
+    .input_login--password:before {
+        background: url('/images/password.png') no-repeat;
+        background-size: 3rem;
+    }
+}
 
-    .input_login--password:before{
-        background:url('/images/password.png') no-repeat; 
-        background-size: 3rem;
-    }
-    
-    button{
-        line-height: 5rem;
-        background-color: $salmon;
-        color:white;
-        width: 100%;
-        text-transform: uppercase;
-        font-size: 2rem;
-        font-family: $anton;
-        font-weight: 400;
-        font-style: normal;
-        border: none;
-        
-        letter-spacing: 0.2rem;
-    }
+.pink_button {
+    line-height: 5rem;
+    background-color: $salmon;
+    color: white;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: $anton;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    margin-top: 2rem;
+    letter-spacing: 0.2rem;
 }

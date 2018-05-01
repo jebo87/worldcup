@@ -1,16 +1,21 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import {setScore} from '../actions/scoreActions';
 
 class Match extends React.Component {
     user = this.props.user.userId;
-    scores = this.props.match.scores?this.props.match.scores[this.user]:undefined;
-    
+    scores = this.props.match.scores ? this.props.match.scores[this.user] : undefined;
+    handleClick = () => {
+
+        const score = { group: this.props.match.group, teamA: this.props.match.teamA, teamB: this.props.match.teamB };
+        this.props.dispatch(setScore(score));
+    }
 
     render() {
-      
+
         return (
             // Es mejor hacer dos componentes diferentes. uno para matches finalizados y otro para los demas
-            <div className="match">
+            <div className="match" onClick={this.handleClick}>
 
                 <div className="match_team">
                     <div className="match_country">
@@ -32,7 +37,7 @@ class Match extends React.Component {
                     </div>
 
                 </div>
-                {(this.scores && !this.props.match.finished )&&
+                {(this.scores && !this.props.match.finished) &&
                     <div className="ribbon"><span>enviado</span></div>
                 }
                 {this.props.match.finished &&
@@ -44,9 +49,10 @@ class Match extends React.Component {
     }
 }
 
-const mapStateToProps = (state,props) =>{
+const mapStateToProps = (state, props) => {
     return {
-        user: state.user
+        user: state.user,
+        score: state.score
     }
 }
 

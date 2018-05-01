@@ -1,5 +1,5 @@
 import React from 'react';
-import { firebaseApp } from '../helpers/database';
+import { firebaseApp,firebaseAuth } from '../helpers/database';
 import username from '../images/user.png';
 import password from '../images/password.png';
 
@@ -24,14 +24,15 @@ class Login extends React.Component {
         const email = this.state.user.email;
         const password = this.state.user.password;
         const props = this.props;
-
-        firebaseApp.auth().signInWithEmailAndPassword(email, password)
+        firebaseApp.auth().setPersistence(firebaseAuth.Auth.Persistence.SESSION).then(()=>{
+            return firebaseApp.auth().signInWithEmailAndPassword(email, password)
             .then((user) => {
-                console.log(this.props);
                 this.props.onSubmit(
                     user
                 )
             })
+
+        })
         // .catch(function (error) {
         //     // Handle Errors here.
         //     var errorCode = error.code;
@@ -63,7 +64,7 @@ class Login extends React.Component {
                     <div className="input_login input_login--password">
                         <input type="password" id="password" value={this.state.user.password} onChange={this.handlePasswordChange} />
                     </div>
-                    <button>Login</button>
+                    <button className="pink_button">Login</button>
                 </form>
 
 

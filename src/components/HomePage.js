@@ -3,6 +3,10 @@ import { connect } from 'react-redux';
 import Header from './Header';
 import { startSetMatches } from '../actions/matchesActions';
 import Fecha from './Fecha';
+import SendScoreModal from './SendScoreModal';
+import {setScore} from '../actions/scoreActions';
+
+
 
 class HomePage extends React.Component {
 
@@ -14,6 +18,11 @@ class HomePage extends React.Component {
 
         this.props.dispatch(startSetMatches());
 
+    }
+    resetScore=()=>{
+        this.props.dispatch(setScore({teamA:"",teamB:"",group:""})); 
+
+        
     }
     render() {
         const matchDates = Object.keys(this.props.fechas);       
@@ -30,7 +39,7 @@ class HomePage extends React.Component {
 
                     ))
                 }
-
+                <SendScoreModal  score = {this.props.score} resetScore={this.resetScore}/>
             </React.Fragment>
         )
 
@@ -39,7 +48,8 @@ class HomePage extends React.Component {
 }
 const mapStateToProps = (state, props) => {
     return {
-        fechas: state.fechas
+        fechas: state.fechas,
+        score:state.scoreToUpdate
     }
 
 }

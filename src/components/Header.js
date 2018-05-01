@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { setUser, deleteUser } from '../actions/userActions';
 import { NavLink } from 'react-router-dom';
+import { firebaseApp } from '../helpers/database';
+import ball from '../images/ball.png';
 
 class Header extends React.Component {
     constructor(props) {
@@ -14,14 +16,21 @@ class Header extends React.Component {
         localStorage.removeItem('worldcup_usr');
         this.props.dispatch(deleteUser());
         this.toggleMenu();
+        firebaseApp.auth().signOut().then(() => {
+            // Sign-out successful.
+            console.log('sign out');
+        }).catch(function (error) {
+            console.log(error);
+        });
         this.props.history.push('/login');
+
 
     }
     toggleMenu = () => {
-        
-            const currentState = this.state.displayMenu;
-            this.setState(() => ({ displayMenu: !currentState }));
-       
+
+        const currentState = this.state.displayMenu;
+        this.setState(() => ({ displayMenu: !currentState }));
+
     }
     render() {
         return (
@@ -31,28 +40,45 @@ class Header extends React.Component {
 
                     <div>
                         <a href="#" onClick={this.toggleMenu} className="header_icon">&#9776;</a>
-                        <span className="header_userleft">{this.props.user.userId}</span>
+                        <span className="header_userleft">{this.props.user.email}</span>
                     </div>
                     <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
-                    <NavLink onClick={this.toggleMenu}  className="header_links" to="/points" >Puntos</NavLink>
+                    <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
                     <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
                     <a className="header_links" href="#" onClick={this.logout} >Salir</a>
-                    <span className="header_userright">{this.props.user.userId}</span>
+                    {
+                        this.props.user.email &&  <img className="header_image" src={this.props.user.image || ball} alt=""/>
+
+                    }
+                   
+                    <div className="header_userright">
+                   
+                    {this.props.user.name || this.props.user.email}
+                    
+                    </div>
 
 
                 </div>
             </React.Fragment>
         );
     }
-    componentWillMount() {
-        if (!this.props.user.userId && !localStorage.getItem('worldcup_usr')) {
-            this.props.history.push('/login');
-        }
+    componentDidMount() {
+        firebaseApp.auth().onAuthStateChanged((user) => {
 
-        if (localStorage.getItem('worldcup_usr') && !this.props.user.userId) {
-            this.props.dispatch(setUser({ email: '', userId: localStorage.getItem('worldcup_usr') }));
-        }
+            if (user) {
+                this.props.dispatch(setUser(
+                    {
+                        email: user.email,
+                        userId: user.uid,
+                        name: user.displayName,
+                        image: user.photoURL
+                    }
+                ));
 
+            } else {
+                this.props.history.push('/login');
+            }
+        });
     }
 }
 
