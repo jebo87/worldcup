@@ -1,7 +1,9 @@
 const scoreReducerDefaultState = {
     group: '',
     teamA: '',
-    teamB: ''
+    teamB: '',
+    scoreA:0,
+    scoreB:0
 
 };
 
@@ -9,6 +11,7 @@ const scoreReducer = (state = scoreReducerDefaultState, action) => {
     switch(action.type){
         case 'SET_SCORE':
             return {
+                ...state,
                 ...action.score
             }
         default:

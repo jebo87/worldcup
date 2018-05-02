@@ -53,7 +53,45 @@
         }
     }
 
-   
+    .score_number{
+        
+        display: inline-block;
+        
+        text-align:center;
+        min-width: 5rem;
+    }
+    .number{
+        position: relative;
+        overflow: hidden;
+
+    }
+    .score_number-enter{
+        display: inline-block;
+        transform:translateY(100%);
+        transition: 0.2s ease-in;
+        
+    }
+    .score_number-enter-active{
+        transform:translateY(0);
+        position:relative;
+        
+    }
+    
+    .score_number-exit{
+        display: inline-block;
+        transform:translateY(0);
+        transition: 0.05s ease-out; 
+    }
+    .score_number-exit-active{
+       
+        transform:translateY(100%);
+        position: absolute;
+        left:0;
+        top:0;
+
+    
+        
+    }
     .textA {
         writing-mode: vertical-rl;
         transform: rotate(180deg);
@@ -61,6 +99,18 @@
     .score {
         font-size: 10rem;
         color: $salmon;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        .scorelink{
+            font-size: 4.8rem;
+            margin:0 1rem;
+            cursor: pointer;
+            margin:auto;
+            align-self:center;
+            line-height: 14.4rem;
+            width: 5rem;
+        }
     }
     .pink_button {
         width: 80%;

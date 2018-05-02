@@ -20,9 +20,9 @@
     
     color: white;
     outline: none;
-    padding: 2rem;
+   
     text-align: center;
-    
+    border:0;
     z-index: 1000;
     display: flex;
     justify-content: center;
@@ -57,12 +57,56 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
+        
        
-        a{
+        .scorelink{
             font-size: 4.8rem;
             margin:0 1rem;
+            cursor: pointer;
+            margin:auto;
+            align-self:center;
+            line-height: 14.4rem;
+            width: 5rem;
         }
     }
+
+    .score_number{
+        
+        display: inline-block;
+        
+        text-align:center;
+    }
+    .number{
+        position: relative;
+        overflow: hidden;
+
+    }
+    .score_number-enter{
+        display: inline-block;
+        transform:translateY(100%);
+        transition: 0.2s ease-in;
+        
+    }
+    .score_number-enter-active{
+        transform:translateY(0);
+        
+    }
+    
+    .score_number-exit{
+        display: inline-block;
+        transform:translateY(0);
+        transition: 0.2s ease-out; 
+    }
+    .score_number-exit-active{
+       
+        transform:translateY(100%);
+        position: absolute;
+        left:0;
+        top:0;
+    
+        
+    }
+    
     .team_text {
         
         font-size: 4.8rem;

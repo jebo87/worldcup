@@ -1,13 +1,18 @@
 import React from 'react';
 import Modal from 'react-modal';
 import { connect } from 'react-redux';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import {setScore} from '../actions/scoreActions';
+
 Modal.setAppElement('#app');
 class SendScoreModal extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             width: window.innerWidth,
+            scoreA: 0,
+            scoreB: 0
         };
     }
     componentWillMount() {
@@ -24,12 +29,34 @@ class SendScoreModal extends React.Component {
         this.setState({ width: window.innerWidth });
     };
 
+    removeGoal = (team) => {
+        team === 'A' ?
+            this.setState(() => ({ scoreA: this.state.scoreA > 0 ? --this.state.scoreA : 0 }))
+            :
+            this.setState(() => ({ scoreB: this.state.scoreB > 0 ? --this.state.scoreB : 0 }))
+    }
+    addGoal = (team) => {
+        team === 'A' ?
+            this.setState(() => ({ scoreA: ++this.state.scoreA }))
+            :
+            this.setState(() => ({ scoreB: ++this.state.scoreB }))
+    }
+
+    sendScore =() =>{
+        this.props.dispatch(setScore({scoreA:this.state.scoreA,scoreB:this.state.scoreB}));
+    }
+
 
     render() {
+        const childFactoryCreator = (classNames) => (
+            (child) => (
+                React.cloneElement(child, {
+                    classNames
+                })
+            )
+        );
         const { width } = this.state;
         const isMobile = width < 640;
-        console.log(width);
-
         if (!isMobile) {
             return (
                 <Modal
@@ -47,7 +74,7 @@ class SendScoreModal extends React.Component {
                                 <img src={'images/' + this.props.score.teamA + '.png'} alt="" />
                                 <div>
                                     <div className="group">
-                                       Grupo {' '+this.props.score.group}
+                                        Grupo {' ' + this.props.score.group}
                                     </div>
                                     <div className="vs">
                                         vs
@@ -58,10 +85,19 @@ class SendScoreModal extends React.Component {
                             <div className="scores_teams">
                                 <span className="team_text teamA">{this.props.score.teamA}</span>
                                 <div className="score">
-                                    <a>&#60;</a>
-
-                                    0
-                            <a>&#62;</a>
+                                    <a className="scorelink" onClick={(e) => { this.removeGoal('A') }}>&#60;</a>
+                                    <div className="number">
+                                        <TransitionGroup component="span" className="score_number">
+                                            <CSSTransition
+                                                classNames="score_number"
+                                                key={this.state.scoreA}
+                                                timeout={{ enter: 500, exit: 50 }}
+                                            >
+                                                <span >{this.state.scoreA}</span>
+                                            </CSSTransition>
+                                        </TransitionGroup>
+                                    </div>
+                                    <a className="scorelink" onClick={(e) => { this.addGoal('A') }}>&#62;</a>
                                 </div>
                                 <div className="middle">
 
@@ -71,9 +107,19 @@ class SendScoreModal extends React.Component {
 
                                 </div>
                                 <div className="score">
-                                    <a>&#60;</a>
-                                    0
-                                 <a>&#62;</a>
+                                    <a className="scorelink" onClick={(e) => { this.removeGoal('B') }}>&#60;</a>
+                                    <div className="number">
+                                        <TransitionGroup component="span" className="score_number">
+                                            <CSSTransition
+                                                classNames="score_number"
+                                                key={this.state.scoreB}
+                                                timeout={{ enter: 500, exit: 50 }}
+                                            >
+                                                <span >{this.state.scoreB}</span>
+                                            </CSSTransition>
+                                        </TransitionGroup>
+                                    </div>
+                                    <a className="scorelink" onClick={(e) => { this.addGoal('B') }}>&#62;</a>
                                 </div>
                                 <span className="team_text">{this.props.score.teamB}</span>
                             </div>
@@ -82,7 +128,7 @@ class SendScoreModal extends React.Component {
                         </div>
 
 
-                        <button className="pink_button" >enviar pronostico</button>
+                        <button className="pink_button" onClick={this.sendScore}>enviar pronostico</button>
                     </div>
 
 
@@ -97,8 +143,8 @@ class SendScoreModal extends React.Component {
                     closeTimeoutMS={1}
                     className="modal_mobile"
                 >
-                <div className="layout">
-                <span className="group">Grupo{' '+this.props.score.group}</span>
+                    <div className="layout">
+                        <span className="group">Grupo{' ' + this.props.score.group}</span>
                         <div className="team">
                             <div className="textA">
                                 {this.props.score.teamA}
@@ -107,18 +153,27 @@ class SendScoreModal extends React.Component {
                                 <img src={'images/' + this.props.score.teamA + '.png'} alt="" />
                             </div>
                             <div className="score">
-                                <a>&#60;</a>
-
-                                0
-                                <a>&#62;</a>
+                            <a className="scorelink" onClick={(e) => { this.removeGoal('A') }}>&#60;</a>
+                            <div className="number">
+                                <TransitionGroup component="span" className="score_number">
+                                    <CSSTransition
+                                        classNames="score_number"
+                                        key={this.state.scoreA}
+                                        timeout={{ enter: 500, exit: 50 }}
+                                    >
+                                        <span >{this.state.scoreA}</span>
+                                    </CSSTransition>
+                                </TransitionGroup>
+                            </div>
+                            <a className="scorelink" onClick={(e) => { this.addGoal('A') }}>&#62;</a>
                             </div>
                         </div>
                         <div className="middle">
-                        <div className="vs">
-                        VS
+                            <div className="vs">
+                                VS
                         </div>
-                        <div className="dash">
-                        -
+                            <div className="dash">
+                                -
                         </div>
                         </div>
                         <div className="team">
@@ -129,10 +184,19 @@ class SendScoreModal extends React.Component {
                                 <img src={'images/' + this.props.score.teamB + '.png'} alt="" />
                             </div>
                             <div className="score">
-                                <a>&#60;</a>
-
-                                0
-                                <a>&#62;</a>
+                            <a className="scorelink" onClick={(e) => { this.removeGoal('B') }}>&#60;</a>
+                            <div className="number">
+                                <TransitionGroup component="span" className="score_number">
+                                    <CSSTransition
+                                        classNames="score_number"
+                                        key={this.state.scoreB}
+                                        timeout={{ enter: 500, exit: 50 }}
+                                    >
+                                        <span >{this.state.scoreB}</span>
+                                    </CSSTransition>
+                                </TransitionGroup>
+                            </div>
+                            <a className="scorelink" onClick={(e) => { this.addGoal('B') }}>&#62;</a>
                             </div>
                         </div>
                         <button className="pink_button" >enviar pronostico</button>
@@ -146,5 +210,9 @@ class SendScoreModal extends React.Component {
 
     }
 }
-
-export default connect()(SendScoreModal);
+const mapStateToProps = (state,props) =>{
+    return {
+        score: state.scoreToUpdate
+    }
+}
+export default connect(mapStateToProps)(SendScoreModal);

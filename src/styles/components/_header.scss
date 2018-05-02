@@ -17,13 +17,21 @@
 }
 
 .header_responsive {
-    height: 35rem;
+    
     transition: height 0.25s ease-in;
 }
 
 .header_normal {
     height: 7.2rem;
     transition: height 0.25s ease-out;
+}
+
+.links_responsive{
+    display:none
+}
+
+.links_normal{
+    display: block;
 }
 
 .header_icon {
@@ -43,10 +51,18 @@
     padding: 0 1rem;
     margin: 0 0.6rem 0 0;
     text-align: left;
+    cursor: pointer;
+    display:inline-block;
+    width: auto;
+}
+
+.header_links:hover{
+    background: darken($salmon,10%);
 }
 
 .header_userleft {
     display: none;
+    color:#efefef;
 }
 
 .header_userright {
@@ -88,8 +104,19 @@
         // display: none;
         // position:relative;
         align-self: flex-start;
+        cursor: pointer;
+        width: 100%;
     }
+
     .header_icon {
         display: block;
+    }
+
+    .links_normal{
+        display:none;
+    }
+
+    .links_responsive{
+        display:contents;
     }
 }

@@ -20,7 +20,7 @@ class HomePage extends React.Component {
 
     }
     resetScore=()=>{
-        this.props.dispatch(setScore({teamA:"",teamB:"",group:""})); 
+        this.props.dispatch(setScore({teamA:"",teamB:"",group:"",scoreA:0,scoreB:0})); 
 
         
     }
@@ -39,7 +39,10 @@ class HomePage extends React.Component {
 
                     ))
                 }
-                <SendScoreModal  score = {this.props.score} resetScore={this.resetScore}/>
+                {
+                    <SendScoreModal  resetScore={this.resetScore}/>
+                    // <SendScoreModal  score = {{teamA:"uruguay",teamB:"egipto",group:"",scoreA:0,scoreB:0}} resetScore={this.resetScore}/>
+                }
             </React.Fragment>
         )
 

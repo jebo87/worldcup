@@ -13,9 +13,8 @@ class Header extends React.Component {
         }
     }
     logout = () => {
-        localStorage.removeItem('worldcup_usr');
+        this.setState(() => ({ displayMenu: false }));
         this.props.dispatch(deleteUser());
-        this.toggleMenu();
         firebaseApp.auth().signOut().then(() => {
             // Sign-out successful.
             console.log('sign out');
@@ -40,21 +39,29 @@ class Header extends React.Component {
 
                     <div>
                         <a href="#" onClick={this.toggleMenu} className="header_icon">&#9776;</a>
-                        <span className="header_userleft">{this.props.user.email}</span>
+                        <span className="header_userleft">{this.props.user.name || this.props.user.email}</span>
                     </div>
-                    <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
-                    <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
-                    <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
-                    <a className="header_links" href="#" onClick={this.logout} >Salir</a>
+                    <div className="links_normal">
+                        <NavLink className="header_links" to="/" exact={true}>Inicio</NavLink>
+                        <NavLink className="header_links" to="/points" >Puntos</NavLink>
+                        <NavLink className="header_links" to="/leaderboard" >Posiciones</NavLink>
+                    </div>
+                    <div className="links_responsive">
+                        <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
+                        <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
+                        <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
+
+                    </div>
+                    <a className="header_links" onClick={this.logout} style={{cursor:'pointer'}}>Salir</a>
                     {
-                        this.props.user.email &&  <img className="header_image" src={this.props.user.image || ball} alt=""/>
+                        this.props.user.email && <img className="header_image" src={this.props.user.image || ball} alt="" />
 
                     }
-                   
+
                     <div className="header_userright">
-                   
-                    {this.props.user.name || this.props.user.email}
-                    
+
+                        {this.props.user.name || this.props.user.email}
+
                     </div>
 
 
