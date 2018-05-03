@@ -1,4 +1,7 @@
 const scoreReducerDefaultState = {
+    user: undefined,
+    fecha:undefined,
+    matchId:undefined,
     group: '',
     teamA: '',
     teamB: '',

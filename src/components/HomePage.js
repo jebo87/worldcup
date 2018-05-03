@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Header from './Header';
-import { startSetMatches } from '../actions/matchesActions';
+import { setMatches,startSetMatches } from '../actions/matchesActions';
 import Fecha from './Fecha';
 import SendScoreModal from './SendScoreModal';
 import {setScore} from '../actions/scoreActions';
-
+import database  from '../helpers/database';
 
 
 class HomePage extends React.Component {
@@ -15,12 +15,16 @@ class HomePage extends React.Component {
 
 
     componentDidMount() {
-
-        this.props.dispatch(startSetMatches());
+        database.ref('fechas').on('value',(snapshot) => {
+            let fechas = {};
+            fechas = snapshot.val() ;
+            this.props.dispatch(setMatches(fechas));
+        });
+        // this.props.dispatch(startSetMatches());
 
     }
     resetScore=()=>{
-        this.props.dispatch(setScore({teamA:"",teamB:"",group:"",scoreA:0,scoreB:0})); 
+         this.props.dispatch(setScore({teamA:"",teamB:"",group:"",scoreA:0,scoreB:0})); 
 
         
     }

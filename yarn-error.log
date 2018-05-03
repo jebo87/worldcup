@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn run firebase deploy
+  /usr/local/bin/node /usr/local/bin/yarn run build:prod
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet
@@ -22,6 +22,7 @@ npm manifest:
     "license": "MIT",
     "scripts": {
       "build:dev": "webpack --mode=development",
+      "build:prod": "webpack --mode=production",
       "dev-server": "webpack-dev-server --mode=development"
     },
     "dependencies": {
@@ -31,26 +32,27 @@ npm manifest:
       "babel-plugin-transform-object-rest-spread": "^6.26.0",
       "babel-preset-env": "^1.6.1",
       "babel-preset-react": "^6.24.1",
-      "css-loader": "^0.28.11",
+      "extract-text-webpack-plugin": "3.0.0",
       "firebase": "^4.13.1",
-      "firebase-tools": "^3.18.4",
-      "global": "^4.3.2",
-      "install": "^0.11.0",
       "moment": "^2.22.1",
-      "node-sass": "^4.8.3",
       "normalize.css": "^8.0.0",
       "react": "^16.3.1",
       "react-dom": "^16.3.1",
+      "react-modal": "^3.4.4",
       "react-redux": "^5.0.7",
       "react-router-dom": "^4.2.2",
+      "react-transition-group": "^2.3.1",
       "redux": "^4.0.0",
-      "redux-thunk": "^2.2.0",
-      "sass-loader": "^6.0.7",
-      "style-loader": "^0.20.3",
-      "webpack": "^4.5.0"
+      "redux-thunk": "^2.2.0"
     },
     "devDependencies": {
+      "css-loader": "^0.28.11",
       "file-loader": "^1.1.11",
+      "firebase-tools": "^3.18.4",
+      "node-sass": "^4.8.3",
+      "sass-loader": "^6.0.7",
+      "style-loader": "^0.20.3",
+      "webpack": "^4.5.0",
       "webpack-cli": "^2.0.14",
       "webpack-dev-server": "^3.1.3"
     }
@@ -300,7 +302,7 @@ Lockfile:
       co "^4.6.0"
       json-stable-stringify "^1.0.1"
   
-  ajv@^5.1.0:
+  ajv@^5.0.0, ajv@^5.1.0:
     version "5.5.2"
     resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
     dependencies:
@@ -550,7 +552,7 @@ Lockfile:
     version "0.1.3"
     resolved "https://registry.yarnpkg.com/async-foreach/-/async-foreach-0.1.3.tgz#36121f845c0578172de419a97dbeb1d16ec34542"
   
-  async@2.6.0, async@^2.0.0, async@^2.0.1, async@^2.3.0, async@^2.4.0, async@^2.6.0:
+  async@2.6.0, async@^2.0.0, async@^2.0.1, async@^2.3.0, async@^2.4.0, async@^2.4.1, async@^2.6.0:
     version "2.6.0"
     resolved "https://registry.yarnpkg.com/async/-/async-2.6.0.tgz#61a29abb6fcc026fea77e56d1c6ec53a795951f4"
     dependencies:
@@ -2552,13 +2554,13 @@ Lockfile:
     dependencies:
       buffer-indexof "^1.0.0"
   
+  dom-helpers@^3.3.1:
+    version "3.3.1"
+    resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-3.3.1.tgz#fc1a4e15ffdf60ddde03a480a9c0fece821dd4a6"
+  
   dom-storage@2.1.0:
     version "2.1.0"
     resolved "https://registry.yarnpkg.com/dom-storage/-/dom-storage-2.1.0.tgz#00fb868bc9201357ea243c7bcfd3304c1e34ea39"
-  
-  dom-walk@^0.1.0:
-    version "0.1.1"
-    resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
   
   domain-browser@^1.1.1:
     version "1.2.0"
@@ -2827,6 +2829,10 @@ Lockfile:
       signal-exit "^3.0.0"
       strip-eof "^1.0.0"
   
+  exenv@^1.2.0:
+    version "1.2.2"
+    resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  
   exit-code@^1.0.2:
     version "1.0.2"
     resolved "https://registry.yarnpkg.com/exit-code/-/exit-code-1.0.2.tgz#ce165811c9f117af6a5f882940b96ae7f9aecc34"
@@ -2978,6 +2984,15 @@ Lockfile:
       regex-not "^1.0.0"
       snapdragon "^0.8.1"
       to-regex "^3.0.1"
+  
+  extract-text-webpack-plugin@3.0.0:
+    version "3.0.0"
+    resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-3.0.0.tgz#90caa7907bc449f335005e3ac7532b41b00de612"
+    dependencies:
+      async "^2.4.1"
+      loader-utils "^1.1.0"
+      schema-utils "^0.3.0"
+      webpack-sources "^1.0.1"
   
   extsprintf@1.3.0:
     version "1.3.0"
@@ -3534,13 +3549,6 @@ Lockfile:
       ini "^1.3.4"
       is-windows "^1.0.1"
       which "^1.2.14"
-  
-  global@^4.3.2:
-    version "4.3.2"
-    resolved "https://registry.yarnpkg.com/global/-/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
-    dependencies:
-      min-document "^2.19.0"
-      process "~0.5.1"
   
   globals@^9.18.0:
     version "9.18.0"
@@ -4190,10 +4198,6 @@ Lockfile:
       string-width "^2.1.0"
       strip-ansi "^4.0.0"
       through "^2.3.6"
-  
-  install@^0.11.0:
-    version "0.11.0"
-    resolved "https://registry.yarnpkg.com/install/-/install-0.11.0.tgz#e539d3c7db572ab5081d3780de20796dd3cc842e"
   
   internal-ip@1.2.0:
     version "1.2.0"
@@ -5261,12 +5265,6 @@ Lockfile:
   mimic-response@^1.0.0:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/mimic-response/-/mimic-response-1.0.0.tgz#df3d3652a73fded6b9b0b24146e6fd052353458e"
-  
-  min-document@^2.19.0:
-    version "2.19.0"
-    resolved "https://registry.yarnpkg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
-    dependencies:
-      dom-walk "^0.1.0"
   
   minimalistic-assert@^1.0.0:
     version "1.0.0"
@@ -6341,10 +6339,6 @@ Lockfile:
     version "0.11.10"
     resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
   
-  process@~0.5.1:
-    version "0.5.2"
-    resolved "https://registry.yarnpkg.com/process/-/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
-  
   progress@^2.0.0:
     version "2.0.0"
     resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
@@ -6374,7 +6368,7 @@ Lockfile:
       utile "0.3.x"
       winston "2.1.x"
   
-  prop-types@^15.5.4, prop-types@^15.6.0:
+  prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.6.0, prop-types@^15.6.1:
     version "15.6.1"
     resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.6.1.tgz#36644453564255ddda391191fb3a125cbdf654ca"
     dependencies:
@@ -6554,6 +6548,19 @@ Lockfile:
       object-assign "^4.1.1"
       prop-types "^15.6.0"
   
+  react-lifecycles-compat@^3.0.0:
+    version "3.0.2"
+    resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.2.tgz#7279047275bd727a912e25f734c0559527e84eff"
+  
+  react-modal@^3.4.4:
+    version "3.4.4"
+    resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.4.4.tgz#e9dde25e9e85a59c76831f2a2b468712a546aded"
+    dependencies:
+      exenv "^1.2.0"
+      prop-types "^15.5.10"
+      react-lifecycles-compat "^3.0.0"
+      warning "^3.0.0"
+  
   react-redux@^5.0.7:
     version "5.0.7"
     resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.0.7.tgz#0dc1076d9afb4670f993ffaef44b8f8c1155a4c8"
@@ -6587,6 +6594,14 @@ Lockfile:
       path-to-regexp "^1.7.0"
       prop-types "^15.5.4"
       warning "^3.0.0"
+  
+  react-transition-group@^2.3.1:
+    version "2.3.1"
+    resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.3.1.tgz#31d611b33e143a5e0f2d94c348e026a0f3b474b6"
+    dependencies:
+      dom-helpers "^3.3.1"
+      loose-envify "^1.3.1"
+      prop-types "^15.6.1"
   
   react@^16.3.1:
     version "16.3.1"
@@ -7143,6 +7158,12 @@ Lockfile:
   sax@~1.2.1:
     version "1.2.4"
     resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
+  
+  schema-utils@^0.3.0:
+    version "0.3.0"
+    resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.3.0.tgz#f5877222ce3e931edae039f17eb3716e7137f8cf"
+    dependencies:
+      ajv "^5.0.0"
   
   schema-utils@^0.4.2, schema-utils@^0.4.5:
     version "0.4.5"
@@ -8743,7 +8764,7 @@ Trace:
   Error: Command failed.
   Exit code: 1
   Command: sh
-  Arguments: -c /Users/jorge/Documents/repos/world-cup/code/node_modules/.bin/firebase deploy
+  Arguments: -c webpack --mode=production
   Directory: /Users/jorge/Documents/repos/world-cup/code
   Output:
   

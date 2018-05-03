@@ -27,12 +27,15 @@ class MatchList extends React.Component {
                                         ['images/' + this.props.matches[thisMatch].teamA + '.png', 'images/' + this.props.matches[thisMatch].teamB + '.png']
                                     }
                                         match={this.props.matches[thisMatch]}
+                                       
                                         key={thisMatch}
                                     />) :
                                     (<Match flag={
                                         ['images/' + this.props.matches[thisMatch].teamA + '.png', 'images/' + this.props.matches[thisMatch].teamB + '.png']
                                     }
                                         match={this.props.matches[thisMatch]}
+                                        fecha = {this.props.fecha}
+                                        matchId = {thisMatch}
                                         key={thisMatch}
                                     />)
                             }

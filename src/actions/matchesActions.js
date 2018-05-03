@@ -8,10 +8,10 @@ export const setMatches = (fechas = {}) => (
 
 export const startSetMatches = () => {
     return (dispatch) => {
-        return database.ref('fechas').on('value',(snapshot) => {
+        return database.ref('fechas').once('value',(snapshot) => {
             let fechas = {};
             fechas = snapshot.val() ;
-            dispatch(setMatches(fechas));
+            dispatch(setMatches(fechas),  { allowMore: true });
         });
     };
 };

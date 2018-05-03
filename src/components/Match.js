@@ -4,15 +4,29 @@ import {setScore} from '../actions/scoreActions';
 
 class Match extends React.Component {
     user = this.props.user.userId;
-    scores = this.props.match.scores ? this.props.match.scores[this.user] : undefined;
+   constructor(props){
+       super(props);
+       this.scores = undefined;
+   }
     handleClick = () => {
 
-        const score = { group: this.props.match.group, teamA: this.props.match.teamA, teamB: this.props.match.teamB };
+        const score = { 
+            user:this.props.user.userId,
+            fecha:this.props.fecha, 
+            matchId:this.props.matchId, 
+            group: this.props.match.group, 
+            teamA: this.props.match.teamA, 
+            teamB: this.props.match.teamB, 
+            scoreA:(this.scores && this.scores.scoreA)||0,
+            scoreB:(this.scores && this.scores.scoreB)||0 
+        };
         this.props.dispatch(setScore(score));
     }
-
+    componentDidMount(){
+        
+    }
     render() {
-
+        this.scores = this.props.match.scores ? this.props.match.scores[this.user] : undefined;
         return (
             // Es mejor hacer dos componentes diferentes. uno para matches finalizados y otro para los demas
             <div className="match" onClick={this.handleClick}>
