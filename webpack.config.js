@@ -1,5 +1,7 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env) => {
     const isProduction = env === 'production';
@@ -8,7 +10,7 @@ module.exports = (env) => {
         entry: './src/app.js',
         output: {
             path: path.join(__dirname, 'public'),
-            filename: 'bundle.js?[hash]'
+            filename: 'bundle.[hash].js'
         },
         module: {
             rules: [
@@ -49,7 +51,14 @@ module.exports = (env) => {
         },
         // devtool: 'source-map',
         plugins: [
-            CSSExtract
+            CSSExtract,
+            new HtmlWebpackPlugin({
+                filename: path.join(__dirname, 'public','index.html'),
+                title: 'Mundial de rusia 2018',
+                template: path.join(__dirname, 'src','index.html')
+            }),
+            new CleanWebpackPlugin(['public']),
+
         ],
         devtool: isProduction ? 'source-map' : 'inline-source-map',
         devServer: {

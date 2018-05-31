@@ -3,21 +3,26 @@ import { connect } from 'react-redux';
 import { setUser, deleteUser } from '../actions/userActions';
 import { NavLink } from 'react-router-dom';
 import { firebaseApp } from '../helpers/database';
+import database from '../helpers/database';
 import ball from '../images/ball.png';
 
 class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            displayMenu: false
+            displayMenu: false,
+            displayAdminMenu: false
         }
+        
     }
+    
+    
+
     logout = () => {
-        this.setState(() => ({ displayMenu: false }));
+        this.setState(() => ({ displayMenu: false,displayAdminMenu: false  }));
         this.props.dispatch(deleteUser());
         firebaseApp.auth().signOut().then(() => {
-            // Sign-out successful.
-            console.log('sign out');
+            //logged out
         }).catch(function (error) {
             console.log(error);
         });
@@ -31,7 +36,9 @@ class Header extends React.Component {
         this.setState(() => ({ displayMenu: !currentState }));
 
     }
+   
     render() {
+        
         return (
             <React.Fragment >
 
@@ -45,6 +52,14 @@ class Header extends React.Component {
                         <NavLink className="header_links" to="/" exact={true}>Inicio</NavLink>
                         <NavLink className="header_links" to="/points" >Puntos</NavLink>
                         <NavLink className="header_links" to="/leaderboard" >Posiciones</NavLink>
+                        {
+
+                            this.props.user.admin ===true && <NavLink className="header_links" to="/admin" >Admin</NavLink>
+
+
+                        }
+
+
                     </div>
                     <div className="links_responsive">
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
@@ -52,9 +67,9 @@ class Header extends React.Component {
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
 
                     </div>
-                    <a className="header_links" onClick={this.logout} style={{cursor:'pointer'}}>Salir</a>
+                    <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>
                     {
-                        this.props.user.email && <img className="header_image" src={this.props.user.image || ball} alt="" />
+                        this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />
 
                     }
 
@@ -69,23 +84,44 @@ class Header extends React.Component {
             </React.Fragment>
         );
     }
+     
     componentDidMount() {
-        firebaseApp.auth().onAuthStateChanged((user) => {
+         const myDatabase = database;
+         firebaseApp.auth().onAuthStateChanged((user) => {
 
             if (user) {
-                this.props.dispatch(setUser(
-                    {
-                        email: user.email,
-                        userId: user.uid,
-                        name: user.displayName,
-                        image: user.photoURL
-                    }
-                ));
 
+                //We have to set the props so that the matches will show the results
+
+                let myUser =  {
+                    email: user.email,
+                    userId: user.uid,
+                    name: user.displayName,
+                    image: user.photoURL,
+                    admin: user.admin
+                }
+                this.props.dispatch(setUser(myUser));
+               
+
+                myDatabase.ref('users/' + user.uid).once('value').then( (snapshot) => {
+                            
+                    if (snapshot.val() === 'admin') {
+                        myUser.admin = true;
+                    }
+                    return myUser;
+                }).then((user)=>{
+                    this.props.dispatch(setUser(user));
+                });
+                  
             } else {
                 this.props.history.push('/login');
             }
         });
+       
+        
+    }
+    componentWillUnmount(){
+       
     }
 }
 

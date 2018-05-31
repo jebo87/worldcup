@@ -9,19 +9,38 @@
     font-weight: 400;
     font-style:normal;
   }
-  .login {
+  .login{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 3px 1px -2px rgba(0,0,0,0.3), 0 1px 5px 0 rgba(0,0,0,0.2);
+    margin-top:2rem;
+    background-color: $dark_gray;
+    width: 90%;
     margin: auto;
     width: 90%;
     max-width: 96.7rem;
     height: 50.4rem;
-    background-color: $dark_gray;
+   
+  }
+  .login_error{
+    margin:2rem;
+    color:red;
+
+  }
+  .login_wrapper {
+    margin:auto;
+    width: 90%;
+    max-width: 96.7rem;
+    height: 50.4rem;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2), 0 3px 1px -2px rgba(0,0,0,0.3), 0 1px 5px 0 rgba(0,0,0,0.2);
-    margin-top:2rem;
+ 
   }
   .login_left {
     
@@ -116,11 +135,12 @@
       width: 90%;
     }
     .login_left{
-      border-left: none;
+      
       width: 90%;
       border-bottom: 1px solid darken($dark_gray,5%);
     }
     .login_right{
+      border-left: none;
       margin-top:2rem;
       width: 90%;
       padding-left:1rem;

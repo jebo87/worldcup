@@ -1,5 +1,5 @@
 import React from 'react';
-import { firebaseApp,firebaseAuth } from '../helpers/database';
+import { firebaseApp, firebaseAuth } from '../helpers/database';
 import username from '../images/user.png';
 import password from '../images/password.png';
 
@@ -24,13 +24,15 @@ class Login extends React.Component {
         const email = this.state.user.email;
         const password = this.state.user.password;
         const props = this.props;
-        firebaseApp.auth().setPersistence(firebaseAuth.Auth.Persistence.SESSION).then(()=>{
+        firebaseApp.auth().setPersistence(firebaseAuth.Auth.Persistence.SESSION).then(() => {
             return firebaseApp.auth().signInWithEmailAndPassword(email, password)
-            .then((user) => {
-                this.props.onSubmit(
-                    user
-                )
-            })
+                .then((user) => {
+                    this.props.onSubmit(user);
+                   
+
+
+
+                })
 
         })
         // .catch(function (error) {

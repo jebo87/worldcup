@@ -6,7 +6,7 @@ const Fecha = (props) => {
     return (
         <div className="fecha" >
             <div className="fecha_title">
-                {moment(props.fecha,'DD-MM-YYYY','es').format('dddd, MMM D YYYY')}
+                {moment(props.fecha,'YYYY-MM-DD','es').format('dddd, MMM D YYYY')}
             </div>
 
             <MatchList fecha={props.fecha} matches={props.matches}/>
