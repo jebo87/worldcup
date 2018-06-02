@@ -17,7 +17,6 @@
 }
 
 .header_responsive {
-    
     transition: height 0.25s ease-in;
 }
 
@@ -26,16 +25,16 @@
     transition: height 0.25s ease-out;
 }
 
-.links_responsive{
-    display:none
+.links_responsive_hidden {
+    display: none
 }
 
-.links_normal{
+.links_normal {
     display: block;
 }
 
 .header_icon {
-    float: left;
+    margin-right: auto;
     left: 0;
     display: none;
     text-decoration: none;
@@ -52,36 +51,38 @@
     margin: 0 0.6rem 0 0;
     text-align: left;
     cursor: pointer;
-    display:inline-block;
+    display: inline-block;
     width: auto;
 }
 
-.header_links:hover{
-    background: darken($salmon,10%);
+.header_links:hover {
+    background: darken($salmon, 10%);
 }
 
 .header_userleft {
     display: none;
-    color:#efefef;
+    color: #efefef;
 }
 
 .header_userright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left:auto;
+    align-items: center;
     text-align: right; //this is to send the text to the right.
     margin-right: 4rem;
-    color:#efefef;
+    color: #efefef;
 }
 
 .header_image {
     width: 4rem;
     height: 4rem;
-    border:0rem;
+    border: 0rem;
     border-radius: 0.4rem;
     line-height: normal;
-    margin-left: auto;
-    margin-right:2rem;
-    
+    margin: 0 2rem;
 }
-
 
 .header>a:hover {
     background-color: darken($salmon, 5%);
@@ -95,7 +96,19 @@
         margin-bottom: 1rem;
     }
     .header_userleft {
-        display: inline;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .name_pic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left:auto;
     }
     .header_userright {
         display: none;
@@ -106,17 +119,16 @@
         align-self: flex-start;
         cursor: pointer;
         width: 100%;
+        border-top: 1px solid lighten($salmon,10%);
     }
-
     .header_icon {
         display: block;
     }
-
-    .links_normal{
-        display:none;
+    .links_normal {
+        display: none;
     }
-
-    .links_responsive{
-        display:contents;
+    .links_responsive_visible{
+        display: contents;
+       
     }
 }

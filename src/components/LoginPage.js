@@ -59,11 +59,7 @@ class LoginPage extends React.Component {
 
 
 
-                firebaseApp.auth().currentUser.updateProfile({
-                    emailVerified: true
-                }).then(() => {
-                    console.log({ ...firebaseApp.auth().currentUser });
-                });
+                
 
                 this.onLogin(user);
 

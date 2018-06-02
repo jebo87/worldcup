@@ -6,42 +6,31 @@ import Fecha from './Fecha';
 import SendScoreModal from './SendScoreModal';
 import { setScore } from '../actions/scoreActions';
 import database from '../helpers/database';
-
-
+import moment from 'moment';
 class HomePage extends React.Component {
 
 
     loading = true;
 
+    constructor(props){
+        super(props);
+        this.state = {
+            serverTime: undefined
+        }
+    }
+
 
     componentDidMount() {
-        database.ref('fechas').on('value', (snapshot) => {
-            let fechas = {};
-            fechas = snapshot.val();
+       this.props.dispatch(startSetMatches());
+       
+       
+          fetch('https://us-central1-***REMOVED***.cloudfunctions.net/date?format=YYYY-MM-DD%20HH:mm')
+            .then((response) => (response.json())) //this is the promise
+            .then((responseJSON) => { //actual result
+                let serverDate = responseJSON['formattedDate'];
+                this.setState(() => ({ serverTime: moment(serverDate, 'YYYY-MM-DD HH:mm').format('YYYY-MM-DD HH:mm') }))
 
-
-            console.log(this.props.user);
-            let filteredFechas = Object.values(fechas).map(fecha => {
-                return Object.values(fecha.matches).map(match => {
-
-
-                    if (match.scores) {
-
-                        let newArray = Object.keys(match.scores).filter(score => {
-
-                            if (score === this.props.user.userId) {
-
-                                return true;
-                            }
-                            return false;
-                        });
-                        return newArray;
-                    }
-                });
             });
-            this.props.dispatch(setMatches(fechas));
-        });
-        // this.props.dispatch(startSetMatches());
 
     }
     componentWillReceiveProps() {
@@ -64,7 +53,7 @@ class HomePage extends React.Component {
 
                     matchDates.map((fecha) => (
 
-                        <Fecha matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} />
+                        <Fecha matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} serverTime={this.state.serverTime}/>
 
                     ))
                 }

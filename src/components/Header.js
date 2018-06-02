@@ -13,13 +13,13 @@ class Header extends React.Component {
             displayMenu: false,
             displayAdminMenu: false
         }
-        
+
     }
-    
-    
+
+
 
     logout = () => {
-        this.setState(() => ({ displayMenu: false,displayAdminMenu: false  }));
+        this.setState(() => ({ displayMenu: false, displayAdminMenu: false }));
         this.props.dispatch(deleteUser());
         firebaseApp.auth().signOut().then(() => {
             //logged out
@@ -36,46 +36,43 @@ class Header extends React.Component {
         this.setState(() => ({ displayMenu: !currentState }));
 
     }
-   
+
     render() {
-        
+
         return (
             <React.Fragment >
 
                 <div className={this.state.displayMenu ? 'header header_responsive ' : 'header header_normal'}>
 
-                    <div>
+
+                    <div className="header_userleft">
                         <a href="#" onClick={this.toggleMenu} className="header_icon">&#9776;</a>
-                        <span className="header_userleft">{this.props.user.name || this.props.user.email}</span>
+                        <div className="name_pic">
+                            {this.props.user.name || this.props.user.email}
+                            {this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />}
+                        </div>
                     </div>
+
                     <div className="links_normal">
                         <NavLink className="header_links" to="/" exact={true}>Inicio</NavLink>
                         <NavLink className="header_links" to="/points" >Puntos</NavLink>
                         <NavLink className="header_links" to="/leaderboard" >Posiciones</NavLink>
-                        {
-
-                            this.props.user.admin ===true && <NavLink className="header_links" to="/admin" >Admin</NavLink>
-
-
-                        }
-
-
+                        {this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
+                        <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>
                     </div>
-                    <div className="links_responsive">
+                    <div className={this.state.displayMenu ? 'links_responsive_visible' : 'links_responsive_hidden'}>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
-
+                        {this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
+                        <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>
                     </div>
-                    <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>
-                    {
-                        this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />
 
-                    }
 
                     <div className="header_userright">
 
                         {this.props.user.name || this.props.user.email}
+                        {this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />}
 
                     </div>
 
@@ -84,45 +81,43 @@ class Header extends React.Component {
             </React.Fragment>
         );
     }
-     
+
     componentDidMount() {
-         const myDatabase = database;
-         firebaseApp.auth().onAuthStateChanged((user) => {
+        const myDatabase = database;
+        firebaseApp.auth().onAuthStateChanged((user) => {
 
             if (user) {
 
                 //We have to set the props so that the matches will show the results
 
-                let myUser =  {
+                let myUser = {
                     email: user.email,
                     userId: user.uid,
                     name: user.displayName,
                     image: user.photoURL,
-                    admin: user.admin
+                    admin: false
                 }
                 this.props.dispatch(setUser(myUser));
-               
 
-                myDatabase.ref('users/' + user.uid).once('value').then( (snapshot) => {
-                            
+
+                myDatabase.ref('users/' + user.uid).once('value').then((snapshot) => {
+
                     if (snapshot.val() === 'admin') {
                         myUser.admin = true;
                     }
                     return myUser;
-                }).then((user)=>{
+                }).then((user) => {
                     this.props.dispatch(setUser(user));
                 });
-                  
+
             } else {
                 this.props.history.push('/login');
             }
         });
-       
-        
+
+
     }
-    componentWillUnmount(){
-       
-    }
+
 }
 
 const mapStateToProps = (state, props) => {

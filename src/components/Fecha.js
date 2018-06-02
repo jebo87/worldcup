@@ -9,7 +9,7 @@ const Fecha = (props) => {
                 {moment(props.fecha,'YYYY-MM-DD','es').format('dddd, MMM D YYYY')}
             </div>
 
-            <MatchList fecha={props.fecha} matches={props.matches}/>
+            <MatchList fecha={props.fecha} matches={props.matches} serverTime={props.serverTime}/>
 
         </div>
     )

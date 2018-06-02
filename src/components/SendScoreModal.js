@@ -178,7 +178,7 @@ class SendScoreModal extends React.Component {
                                 scoreA:0,
                                 scoreB:0
                             }));
-                            this.props.resetScore
+                            this.props.resetScore();
                         }}
                         onAfterOpen={this.afterModalOpen}
                         contentLabel="Selected Option"
