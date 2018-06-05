@@ -64,7 +64,7 @@ class Header extends React.Component {
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>
-                        {this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
+                        {this.props.user.admin === true && <NavLink onClick={this.toggleMenu} className="header_links" to="/admin" >Admin</NavLink>}
                         <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>
                     </div>
 
@@ -102,8 +102,10 @@ class Header extends React.Component {
 
                 myDatabase.ref('users/' + user.uid).once('value').then((snapshot) => {
 
-                    if (snapshot.val() === 'admin') {
-                        myUser.admin = true;
+                    if (snapshot.val().type === 'administrator') {
+               
+                        myUser['admin'] = true;
+                       
                     }
                     return myUser;
                 }).then((user) => {

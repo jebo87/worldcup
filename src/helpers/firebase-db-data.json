@@ -1,54 +1,39 @@
 {
   "fechas" : {
-    "2018-05-30" : {
+    "2018-06-03" : {
       "matches" : {
         "match1" : {
-          "finished" : "true",
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
           "scores" : {
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
+            "x7Ty9uofH4Rf1TInaSwslbk3yDA2" : {
+              "scoreA" : 2,
+              "scoreB" : 1
             }
           },
-          "teamA" : "nigeria",
-          "teamB" : "francia",
-          "time" : "16:00"
-        }
-      }
-    },
-    "2018-05-29" : {
-      "matches" : {
-        "match1" : {
-          "finished" : "true",
-          "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
-            }
-          },
-          "teamA" : "nigeria",
-          "teamB" : "francia",
-          "time" : "16:00"
+          "teamA" : "rusia",
+          "teamB" : "a. saudita",
+          "time" : "11:00"
         }
       }
     },
     "2018-06-14" : {
       "matches" : {
         "match1" : {
-          "finished" : "true",
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
           "scores" : {
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
+            "x7Ty9uofH4Rf1TInaSwslbk3yDA2" : {
+              "scoreA" : 2,
+              "scoreB" : 1
             }
           },
           "teamA" : "rusia",
@@ -61,33 +46,9 @@
       "matches" : {
         "match1" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 1,
-              "scoreB" : 0
-            },
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "0",
-              "scoreB" : "0"
-            },
-            "cBivEfXJ0kM89zy6D00uZN2MI7Z2" : {
-              "scoreA" : 0,
-              "scoreB" : 2
-            },
-            "dfkTaP6M1FcdCCGnkTuurN7cM1J2" : {
-              "scoreA" : 1,
-              "scoreB" : 0
-            },
-            "t3ZS4dfUijd7H4ESz37byH1jPOj2" : {
-              "scoreA" : 1,
-              "scoreB" : 0
-            },
-            "wyZwSLNe0EXpExNLKLPZDrfWdo62" : {
-              "scoreA" : 3,
-              "scoreB" : 0
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "egipto",
           "teamB" : "uruguay",
@@ -95,21 +56,9 @@
         },
         "match2" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 8,
-              "scoreB" : 6
-            },
-            "LIYtomBwlugz94Yz7Mxsjf6xzam1" : {
-              "scoreA" : "0",
-              "scoreB" : "0"
-            },
-            "idEqkHmea0Ndx74SMqbDWao6KOX2" : {
-              "scoreA" : 0,
-              "scoreB" : 3
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "marruecos",
           "teamB" : "iran",
@@ -117,17 +66,9 @@
         },
         "match3" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 4,
-              "scoreB" : 2
-            },
-            "WeUtsijnDkVC0Dg6pRB4cclDGK23" : {
-              "scoreA" : 1,
-              "scoreB" : 0
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "portugal",
           "teamB" : "españa",
@@ -139,17 +80,9 @@
       "matches" : {
         "match1" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 1,
-              "scoreB" : 0
-            },
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "francia",
           "teamB" : "australia",
@@ -157,21 +90,9 @@
         },
         "match2" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 1,
-              "scoreB" : 1
-            },
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
-            },
-            "WeUtsijnDkVC0Dg6pRB4cclDGK23" : {
-              "scoreA" : 0,
-              "scoreB" : 5
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "argentina",
           "teamB" : "islandia",
@@ -179,17 +100,9 @@
         },
         "match3" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "DKzUxoBWXqdiSIFt1EU0VfmY2ni1" : {
-              "scoreA" : 1,
-              "scoreB" : 2
-            },
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "peru",
           "teamB" : "dinamarca",
@@ -197,13 +110,9 @@
         },
         "match4" : {
           "group" : "A",
-          "scoreA" : "0",
-          "scoreB" : "0",
-          "scores" : {
-            "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : {
-              "scoreA" : "1",
-              "scoreB" : "0"
-            }
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
           },
           "teamA" : "croacia",
           "teamB" : "nigeria",
@@ -216,6 +125,12 @@
     "Ns9tgazaRCPv2BWv1BoDS3HhZIE2" : "0"
   },
   "users" : {
-    "wyZwSLNe0EXpExNLKLPZDrfWdo62" : "admin"
+    "x7Ty9uofH4Rf1TInaSwslbk3yDA2" : {
+      "email" : "jorgebautista@gmail.com",
+      "image" : "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+      "name" : "Jorge Bautista",
+      "type" : "administrator",
+      "userId" : "x7Ty9uofH4Rf1TInaSwslbk3yDA2"
+    }
   }
 }

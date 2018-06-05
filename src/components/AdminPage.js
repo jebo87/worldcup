@@ -5,6 +5,8 @@ import database from '../helpers/database';
 import { startSetMatches } from '../actions/matchesActions';
 import moment from 'moment';
 import FechaAdmin from './admin/FechaAdmin';
+import flags from '../helpers/flags';
+
 class AdminPage extends React.Component {
     matchDates = [];
     constructor(props) {
@@ -32,7 +34,7 @@ class AdminPage extends React.Component {
         this.matchDates = Object.keys(this.props.fechas);
         return (
             <React.Fragment>
-                {this.matchDates.length}
+              
                 <Header history={this.props.history} />
 
                 <div className="admin">
@@ -43,7 +45,7 @@ class AdminPage extends React.Component {
              </p>
                     <div className="admin_matches">
                         {this.matchDates.map((fecha) =>
-                            (<FechaAdmin matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} />)
+                            (<FechaAdmin matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} flags={flags} />)
                         )}
 
                     </div>

@@ -1,0 +1,13 @@
+.fecha_admin{
+    margin: 2rem 1rem;
+    padding-top:1rem;
+    // border-top: 1px solid lighten($salmon,10%);
+    
+    .fecha_admin_title {
+        font-size: 3rem;
+        color: $salmon;
+        font-family: $anton;
+        text-transform: capitalize;
+        margin-bottom: 2rem;
+    }
+}

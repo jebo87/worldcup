@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "***REMOVED***"
+    "default": "***REMOVED***",
+    "development": "***REMOVED***",
+    "production": "***REMOVED***"
   }
 }

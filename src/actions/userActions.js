@@ -1,3 +1,4 @@
+import database from '../helpers/database';
 export const setUser = (user) => (
     {
         type: 'SET_USER',
@@ -24,3 +25,10 @@ export const createUserDb = (user) => (
     }
 
 );
+
+export const startCreateUserDb = (user = {}) => {
+    return (dispatch) => {
+        //return database.ref('users/')
+    }
+};
+

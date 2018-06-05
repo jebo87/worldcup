@@ -34,7 +34,7 @@ class MatchCompleted extends React.Component {
                         <div className="match_bottom_text_pink">
                             Resultado real:
                          </div>
-                        {this.props.match.teamA} {this.props.match.scoreA} - {this.props.match.teamB} {this.props.match.scoreB}
+                        {this.props.match.teamA} {this.props.match['match_score'].scoreA} - {this.props.match.teamB} {this.props.match['match_score'].scoreB}
                     </div>
                     <div className="match_bottom_text">
                     <div className="match_bottom_text_pink">

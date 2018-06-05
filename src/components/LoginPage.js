@@ -59,7 +59,7 @@ class LoginPage extends React.Component {
 
 
 
-                
+
 
                 this.onLogin(user);
 
@@ -86,74 +86,81 @@ class LoginPage extends React.Component {
     }
     onLogin = (user) => {
 
+        //any change to this has to be done also y header. TODO consolidate this somewhere else
         database.ref('users/' + user.uid).once('value').then((snapshot) => {
             let myUser = {
+
                 email: user.email,
                 userId: user.uid,
                 name: user.displayName,
                 image: user.photoURL,
                 admin: false
             };
-            if (snapshot.val() === 'admin') {
-                myUser.admin = true;
+            console.log(snapshot.val());
+          
+            if (snapshot.val().type === 'administrator') {
+               
+                myUser['admin'] = true;
+               
             }
+           
 
-            return myUser;
+        return myUser;
 
-        }).then((myUser) => {
-            this.props.dispatch(setUser(myUser));
-        }).then(() => {
-            this.props.history.push('/');
+    }).then((myUser) => {
+        this.props.dispatch(setUser(myUser));
+    }).then(() => {
+        this.props.history.push('/');
 
-        });
+    });
 
 
-
-    }
-
-    componentDidMount() {
 
     }
-    componentWillMount() {
-        if (!!this.props.user.email) {
-            this.props.history.push('/');
-        }
 
-        if (localStorage.getItem('worldcup_login_started') === 'yes') {
-            this.setState(() => ({ loginInitiated: true }));
-        }
+componentDidMount() {
+
+}
+componentWillMount() {
+    if (!!this.props.user.email) {
+        this.props.history.push('/');
     }
-    render() {
+
+    if (localStorage.getItem('worldcup_login_started') === 'yes') {
+        this.setState(() => ({ loginInitiated: true }));
+    }
+}
+render() {
 
 
-        return (
-            <React.Fragment>
-                <Header history={this.props.history} />
+    return (
+        <React.Fragment>
+            <Header history={this.props.history} />
 
-                <div className="login_page">
-                    <h2>BIENVENIDO A RUSIA 2018</h2>
-                    <div className="login">
-                        <div className="login_error">
-                            {this.state.error}
+            <div className="login_page">
+                <h2>BIENVENIDO A RUSIA 2018</h2>
+                <div className="login">
+                    <div className="login_error">
+                        {this.state.error}
+                    </div>
+                    <div className="login_wrapper">
+
+                        <div className="login_left">
+                            <button onClick={this.loginFacebook} className="loginBtn loginBtn--facebook">Iniciar con Facebook</button>
+                            <button onClick={this.loginGoogle} className="loginBtn loginBtn--google">Iniciar con Google </button>
                         </div>
-                        <div className="login_wrapper">
-
-                            <div className="login_left">
-                                <button onClick={this.loginFacebook} className="loginBtn loginBtn--facebook">Iniciar con Facebook</button>
-                                <button onClick={this.loginGoogle} className="loginBtn loginBtn--google">Iniciar con Google </button>
-                            </div>
-                            <div className="login_right">
-                                <Login onSubmit={this.onLogin} />
-                            </div>
+                        <div className="login_right">
+                            <Login onSubmit={this.onLogin} />
                         </div>
-
                     </div>
 
                 </div>
 
-            </React.Fragment>
-        )
-    }
+            </div>
+
+        </React.Fragment>
+    )
+}
 };
 
 const mapStateToProps = (state, props) => {

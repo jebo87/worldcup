@@ -36,7 +36,7 @@ class MatchList extends React.Component {
                         {
                             this.matchKeys.map(
                                 (thisMatch) => {
-                                    return this.props.matches[thisMatch].finished ?
+                                    return this.props.matches[thisMatch]['match_score'].finished ?
                                         (<MatchCompleted flag={
                                             ['images/' + this.props.matches[thisMatch].teamA + '.png', 'images/' + this.props.matches[thisMatch].teamB + '.png']
                                         }
@@ -64,24 +64,7 @@ class MatchList extends React.Component {
             return <div>loading...</div>
         }
 
-        // return (
-        //     <div className='match_list'>
-        //         {
-        //             this.matchKeys.map(
-        //                 (thisMatch) => (
-        //                     <Match flag={
-        //                         ['images/'+this.props.matches[thisMatch].teamA+'.png','images/'+this.props.matches[thisMatch].teamB+'.png']
-        //                     }
-        //                         match={this.props.matches[thisMatch]}
-        //                         key={thisMatch}
-        //                     />
-        //                 )
-        //             )
-        //         }
-
-        //     </div>
-        // );
-
+        
 
     }
 

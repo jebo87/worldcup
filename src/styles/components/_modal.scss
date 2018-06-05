@@ -15,6 +15,9 @@
 .ReactModalPortal .ReactModal__Overlay--before-close{
     opacity:0;
 }
+.ReactModal__Body--open {
+    overflow: hidden; 
+  }
 
 .modal {
     

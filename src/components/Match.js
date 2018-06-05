@@ -26,14 +26,14 @@ class Match extends React.Component {
             scoreA: (this.scores && this.scores.scoreA) || 0,
             scoreB: (this.scores && this.scores.scoreB) || 0
         };
-        if(this.state.matchEnabled){
+        if (this.state.matchEnabled) {
             this.props.dispatch(setScore(score));
         }
     }
     componentDidMount() {
         const serverTime = moment('' + this.props.serverTime, 'YYYY-MM-DD HH:mm');
         const matchTime = moment(this.props.fecha + ' ' + this.props.match.time, 'YYYY-MM-DD HH:mm');
-       
+
         if (serverTime.isSameOrBefore(matchTime)) {
             this.setState(() => ({ matchEnabled: true }))
         } else {
@@ -45,8 +45,8 @@ class Match extends React.Component {
         this.scores = this.props.match.scores ? this.props.match.scores[this.user] : undefined;
         return (
             <React.Fragment>
-                {(this.props.fecha === this.props.scoreToUpdate.fecha && this.props.matchId === this.props.scoreToUpdate.matchId) && (this.props.scoreToUpdate.error&&alert(''+this.props.scoreToUpdate.error))}
-                <div className={this.state.matchEnabled?"match":"match match_started" } onClick={this.handleClick}>
+                {(this.props.fecha === this.props.scoreToUpdate.fecha && this.props.matchId === this.props.scoreToUpdate.matchId) && (this.props.scoreToUpdate.error && alert('' + this.props.scoreToUpdate.error))}
+                <div className={this.state.matchEnabled ? "match" : "match match_started"} onClick={this.handleClick}>
                     
                     <div className="match_team">
                         <div className="match_country">
@@ -76,6 +76,11 @@ class Match extends React.Component {
                     }
 
                 </div>
+                {!this.state.matchEnabled ?
+                    (<div className="other_scores">
+                        <button>Others</button>
+                    </div>) : (false)
+                }
             </React.Fragment>
         )
     }
@@ -85,7 +90,7 @@ const mapStateToProps = (state, props) => {
     return {
         user: state.user,
         score: state.score,
-        scoreToUpdate:state.scoreToUpdate
+        scoreToUpdate: state.scoreToUpdate
     }
 }
 
