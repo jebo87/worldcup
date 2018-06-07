@@ -7,12 +7,14 @@ import SendScoreModal from './SendScoreModal';
 import { setScore } from '../actions/scoreActions';
 import database from '../helpers/database';
 import moment from 'moment';
+import MatchScores from './MatchScores';
+import { startSetMatchScore } from '../actions/matchScoreActions';
 class HomePage extends React.Component {
 
 
     loading = true;
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             serverTime: undefined
@@ -21,18 +23,17 @@ class HomePage extends React.Component {
 
 
     componentDidMount() {
-       this.props.dispatch(startSetMatches());
-       
-       
-          fetch('https://us-central1-***REMOVED***.cloudfunctions.net/date?format=YYYY-MM-DD%20HH:mm')
+        this.props.dispatch(startSetMatches());
+
+
+        fetch('https://us-central1-***REMOVED***.cloudfunctions.net/date?format=YYYY-MM-DD%20HH:mm')
             .then((response) => (response.json())) //this is the promise
             .then((responseJSON) => { //actual result
                 let serverDate = responseJSON['formattedDate'];
                 this.setState(() => ({ serverTime: moment(serverDate, 'YYYY-MM-DD HH:mm').format('YYYY-MM-DD HH:mm') }))
-                console.log(serverDate);
             });
 
-            
+
 
     }
     componentWillReceiveProps() {
@@ -40,9 +41,13 @@ class HomePage extends React.Component {
     }
     resetScore = () => {
         console.log('closing');
-        this.props.dispatch(setScore({ teamA: "", teamB: "", group: "", scoreA: 0, scoreB: 0}));
+        this.props.dispatch(setScore({ teamA: "", teamB: "", group: "", scoreA: 0, scoreB: 0 }));
 
 
+    }
+
+    closeModal = () => {
+        this.props.dispatch(startSetMatchScore({}));
     }
     render() {
         const matchDates = Object.keys(this.props.fechas);
@@ -55,12 +60,16 @@ class HomePage extends React.Component {
 
                     matchDates.map((fecha) => (
 
-                        <Fecha matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} serverTime={this.state.serverTime}/>
+                        <Fecha matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} serverTime={this.state.serverTime} />
 
                     ))
                 }
                 {
-                    <SendScoreModal resetScore={this.resetScore} />
+                    <div className="modals">
+                        <MatchScores closeModal ={this.closeModal} />
+                        <SendScoreModal resetScore={this.resetScore} />
+
+                    </div>
                     // <SendScoreModal  score = {{teamA:"uruguay",teamB:"egipto",group:"",scoreA:0,scoreB:0}} resetScore={this.resetScore}/>
                 }
             </React.Fragment>

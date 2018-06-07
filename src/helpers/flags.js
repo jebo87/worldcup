@@ -14,6 +14,7 @@ import peru from '../images/peru.png';
 import portugal from '../images/portugal.png';
 import rusia from '../images/rusia.png';
 import uruguay from '../images/uruguay.png';
+import refresh from '../images/refresh.png';
 
 
 

@@ -16,7 +16,6 @@ class LeaderBoardPage extends React.Component {
        
     }
     render() {
-        console.log(this.props.user_scores);
        
 
         return (<React.Fragment>

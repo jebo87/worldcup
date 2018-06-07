@@ -40,7 +40,7 @@ class MatchCompleted extends React.Component {
                     <div className="match_bottom_text_pink">
                         Puntos obtenidos:
                      </div>
-                    1
+                    {this.scores&&this.scores.points || <span>0</span>}
                 </div>
 
                 </div>

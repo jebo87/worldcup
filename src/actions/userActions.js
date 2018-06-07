@@ -32,3 +32,24 @@ export const startCreateUserDb = (user = {}) => {
     }
 };
 
+export const startCheckAdmin = (user = {}) => {
+    return (dispatch) => {
+        database.ref('users/' + user.uid).once('value', (snapshot) => {
+            if (snapshot.val()) {
+                let myUser = {
+                    email: user.email,
+                    userId: user.uid,
+                    name: user.displayName,
+                    image: user.photoURL,
+                    admin: false
+                }
+                if (snapshot.val().type === 'administrator') {
+
+                    myUser['admin'] = true;
+
+                }
+                dispatch(setUser(myUser));
+            }
+        });
+    }
+}

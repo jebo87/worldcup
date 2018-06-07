@@ -14,11 +14,13 @@ class AdminPage extends React.Component {
 
     }
     componentDidMount() {
-        // if (this.props.user) {
-        //     if (!this.props.user.admin) {
-        //         this.props.history.push('/');
-        //     }
-        // }
+        if (this.props.user) {
+            if (!this.props.user.admin) {
+                this.props.history.push('/');
+            }
+        }
+
+        
 
         if (this.matchDates.length === 0) {
             this.props.dispatch(startSetMatches());

@@ -20,7 +20,7 @@ const config2 = {
 };
 
 
-const firebaseApp = firebase.initializeApp(config);
+const firebaseApp = firebase.initializeApp(config2);
 const database = firebase.database();
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 const facebookProvider = new firebase.auth.FacebookAuthProvider();

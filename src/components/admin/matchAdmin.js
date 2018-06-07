@@ -1,6 +1,6 @@
 import React from 'react';
 import { startSetMatchScore, startToggleFinished } from '../../actions/matchesActions';
-import { uploadPoints} from '../../actions/scoreboardActions';
+import { uploadPoints } from '../../actions/scoreboardActions';
 import { connect } from 'react-redux';
 import database from '../../helpers/database';
 
@@ -34,7 +34,6 @@ class MatchAdmin extends React.Component {
             const match_score = match.match_score;
             if (match.scores) {
                 const scores = Object.keys(match.scores);
-                console.log('global' + match_score.scoreA + ' ' + match_score.scoreB);
                 scores.map((score) => {
                     let points = 0;
                     // console.log(match_score.scoreA + ' - ' + match_score.scoreB+'vs '+match.scores[score].scoreA +' - '+match.scores[score].scoreB);
@@ -44,7 +43,8 @@ class MatchAdmin extends React.Component {
                             match.scores[score].scoreA > match.scores[score].scoreB
                                 && match_score.scoreA > match_score.scoreB ? 2 : (
                                     match.scores[score].scoreB > match.scores[score].scoreA
-                                        && match_score.scoreB > match_score.scoreA ? 2 : 0
+                                        && match_score.scoreB > match_score.scoreA ? 2 : (match.scores[score].scoreA == match.scores[score].scoreB
+                                            && match_score.scoreA == match_score.scoreB) ? 2 : 0
                                 )
                         )
                     match.scores[score]['points'] = points;
@@ -54,7 +54,7 @@ class MatchAdmin extends React.Component {
                 //update database
                 database.ref(`fechas/${this.matchToUpdate.fecha}/matches/${this.matchToUpdate.matchId}`).set(
                     { ...match }
-                ).then(()=>{
+                ).then(() => {
                     this.props.dispatch(uploadPoints());
                 })
 

@@ -1,7 +1,10 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
+
 import { connect } from 'react-redux';
 import { setScore } from '../actions/scoreActions';
 import moment from 'moment';
+import { startSetMatchScore } from '../actions/matchScoreActions';
 
 class Match extends React.Component {
     user = this.props.user.userId;
@@ -12,8 +15,15 @@ class Match extends React.Component {
             matchEnabled: true
         }
     }
+
+    loadMatchScores = () => {
+        this.props.dispatch(startSetMatchScore(this.props.match));
+    }
+    closeModal = () => {
+        this.props.dispatch(startSetMatchScore({}));
+    }
     handleClick = () => {
-        console.log('handleclick');
+
         const score = {
             user: this.props.user.userId,
             fecha: this.props.fecha,
@@ -47,7 +57,7 @@ class Match extends React.Component {
             <React.Fragment>
                 {(this.props.fecha === this.props.scoreToUpdate.fecha && this.props.matchId === this.props.scoreToUpdate.matchId) && (this.props.scoreToUpdate.error && alert('' + this.props.scoreToUpdate.error))}
                 <div className={this.state.matchEnabled ? "match" : "match match_started"} onClick={this.handleClick}>
-                    
+
                     <div className="match_team">
                         <div className="match_country">
                             <img src={this.props.flag[0]} alt="" />
@@ -74,13 +84,13 @@ class Match extends React.Component {
                     {this.props.match.finished &&
                         <div className="ribbon ribbon_pink"><span>finalizado</span></div>
                     }
-
+                    {!this.state.matchEnabled ?
+                        (<div className="match_others">
+                            <button className="button_nav" onClick={this.loadMatchScores}>ver pronosticos</button>
+                        </div>) : (false)
+                    }
                 </div>
-                {!this.state.matchEnabled ?
-                    (<div className="other_scores">
-                        <button>Others</button>
-                    </div>) : (false)
-                }
+
             </React.Fragment>
         )
     }
