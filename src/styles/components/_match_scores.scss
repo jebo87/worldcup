@@ -1,55 +1,64 @@
 .match_scores {
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
+    
     font-family: $anton;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     background: #ededed;
-}
-
-.ms_layout {
-    position:relative;
-    background: url('../images/BG.png');
+    
+    // 
+    position: fixed;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 100%;
-    margin: auto;
-    color: #555;
-    font-size: 3rem;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-    padding-bottom:5rem;
+    z-index: 1050;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    -webkit-overflow-scrolling: touch;
    
+    cursor: pointer;
+}
+    .ms_layout {
+        position: relative;
+        background: url('../images/BG.png');
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        color: #555;
+        font-size: 3rem;
+        text-transform: uppercase;
+       
+        
+        
+        padding-bottom: 5rem;
+        .ms_close {
+            font-family: $anton;
+            text-transform: uppercase;
+            position: fixed;
+            width: 100%;
+            height: 6rem;
+            background: $salmon;
+            color: #f8f8f8;
+            bottom: 0;
+            left: 0;
+           
+            border: none;
+        }
+    }
+    .ms_all_scores {
+        width: 100%;
+        padding-bottom: 6rem;
+    }
    
-}
-
-.ms_all_scores {
-    width: 100%;
-    padding-bottom:4rem;
-}
-
-.ms_close{
-    font-family: $anton;
-    text-transform: uppercase;
-    position:absolute;
-    width: 100%;
-    height:4rem;
-    background: $salmon;
-    color:#f8f8f8;
-    bottom: 0;
-    left:0;
-    z-index: 2000;
-}
-.ms_subtitle {
-    font-size: 2.4rem;
-    color: $font_gray;
-}
-.ms_title {
-    font-size: 4rem;
-    color:$salmon; 
-    padding-bottom:2rem;
-    border-bottom: 1px solid rgba($font_gray,0.1);
-}
+    .ms_subtitle {
+        font-size: 2.4rem;
+        color: $font_gray;
+    }
+    .ms_title {
+        font-size: 4rem;
+        color: $salmon;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba($font_gray, 0.1);
+    }

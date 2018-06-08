@@ -1,7 +1,7 @@
 
 import firebase from 'firebase';
 
-const config = {
+const production = {
   apiKey: "***REMOVED***",
   authDomain: "***REMOVED***",
   databaseURL: "***REMOVED***",
@@ -10,7 +10,7 @@ const config = {
   messagingSenderId: "***REMOVED***"
 };
 
-const config2 = {
+const development = {
   apiKey: "***REMOVED***",
   authDomain: "***REMOVED***",
   databaseURL: "***REMOVED***",
@@ -20,7 +20,8 @@ const config2 = {
 };
 
 
-const firebaseApp = firebase.initializeApp(config2);
+const firebaseApp = firebase.initializeApp(production);
+// const firebaseApp = firebase.initializeApp(development);
 const database = firebase.database();
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 const facebookProvider = new firebase.auth.FacebookAuthProvider();

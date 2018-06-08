@@ -61,7 +61,9 @@ class Header extends React.Component {
 
                     <div className="links_normal">
                         <NavLink className="header_links" to="/" exact={true}>Inicio</NavLink>
-                        {this.props.user.userId && <NavLink className="header_links" to="/points" >Puntos</NavLink>}
+                        {
+                            //this.props.user.userId && <NavLink className="header_links" to="/points" >Puntos</NavLink>
+                        }
                         {this.props.user.userId && <NavLink className="header_links" to="/leaderboard" >Posiciones</NavLink>}
 
                         {this.props.user.userId && this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
@@ -69,7 +71,9 @@ class Header extends React.Component {
                     </div>
                     <div className={this.state.displayMenu ? 'links_responsive_visible' : 'links_responsive_hidden'}>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
-                        {this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>}
+                        {
+                            //this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
+                        }
                         {this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>}
                         {this.props.user.userId && this.props.user.admin === true && <NavLink onClick={this.toggleMenu} className="header_links" to="/admin" >Admin</NavLink>}
                         {this.props.user.userId && <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>}

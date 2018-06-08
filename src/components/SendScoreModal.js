@@ -69,7 +69,7 @@ class SendScoreModal extends React.Component {
                 let serverDate = responseJSON['formattedDate'];
                 const serverTime = moment('' + serverDate, 'YYYY-MM-DD HH:mm');
                 const matchTime = moment(this.props.score.fecha + ' ' + this.props.score.time, 'YYYY-MM-DD HH:mm');
-                console.log('ServerTime '+serverTime + ' MatchTime ' + matchTime)
+                
                 if (serverTime.isSameOrBefore(matchTime)) {
                     this.setState(() => ({ matchEnabled: true }))
                 } else {

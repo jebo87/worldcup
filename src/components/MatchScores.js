@@ -1,10 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Modal from 'react-modal';
+import AriaModal from 'react-aria-modal';
 import MatchScoreItem from './MatchScoreItem';
 import {startSetMatchScore} from '../actions/matchScoreActions';
 
-Modal.setAppElement('#app');
 
 class MatchScores extends React.Component {
 
@@ -20,7 +19,10 @@ class MatchScores extends React.Component {
 
     }
 
-   
+    getApplicationNode = () => {
+        return document.getElementById('app');
+      };
+    
     render() {
         const matchInfo = {
             teamA: this.props.matchScore.teamA,
@@ -28,19 +30,21 @@ class MatchScores extends React.Component {
         }
 
         return (<React.Fragment>
-            <Modal
-                isOpen={!!this.props.matchScore.teamA}
-                onAfterOpen={this.afterModalOpen}
-                onRequestClose={this.onModalClose}
-                contentLabel="Selected Option"
-                closeTimeoutMS={1}
-                className="match_scores"
+            {this.props.matchScore.teamA?<AriaModal
+                onExit={this.props.closeModal}
+                getApplicationNode = {this.getApplicationNode}
+                titleText="Pronosticos"
+                underlayClickExits={false}
+                underlayClass={'match_scores'}
+                includeDefaultStyles={false}
+            
             >
 
                 <div className="ms_layout">
-                    <h2 className="ms_title" >PRONOSTICOS</h2>
+                
+                    <h2 className="ms_title" >PRONÓSTICOS</h2>
                     <h2 className="ms_subtitle">{this.props.matchScore.teamA} vs {this.props.matchScore.teamB}</h2>
-
+                    
                     <div className="ms_all_scores">
                         {
                             this.props.matchScore.scores&&Object.keys(this.props.matchScore.scores).map(score => {
@@ -51,13 +55,13 @@ class MatchScores extends React.Component {
                             })
                         }
                     </div>
-
-
+                    <button className="ms_close" onClick={this.props.closeModal}>cerrar</button>
+                    
                 </div>
 
-                <button className="ms_close" onClick={this.props.closeModal}>cerrar</button>
+              
 
-            </Modal>
+            </AriaModal>:false}
         </React.Fragment>)
     }
 

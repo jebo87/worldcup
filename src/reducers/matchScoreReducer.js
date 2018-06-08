@@ -11,11 +11,59 @@ const matchScoreReducerDefaultState = {
     //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
     //         scoreA: 2,
     //         scoreB: 1
+    //     },'CbBOcmJaeeseFVK7rwuovcUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseFVeK7rwuovcUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseFVKe7rwuovecUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseFVK7rwuoevcUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseeFVK7rwuoevcUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseFVK7rwruoevcUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaes3eFVK7rwuovceUEqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
+    //     },
+    //     'CbBOcmJaeseFVK7rwuovcUEeqn1s2': {
+    //         name: 'Jorge Bautista',
+    //         picture: "https://lh6.googleusercontent.com/-uWsTuTEdTvY/AAAAAAAAAAI/AAAAAAAAHeE/Gz6UGafwo7o/photo.jpg",
+    //         scoreA: 2,
+    //         scoreB: 1
     //     }
     // },
     // teamA: 'rusia',
     // teamB: 'a. saudita',
     // time: '11:00'
+    
 
 }
 

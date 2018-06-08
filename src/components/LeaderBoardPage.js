@@ -26,12 +26,15 @@ class LeaderBoardPage extends React.Component {
                 </div>
                 <div className="lb_table">
                 {
-                    this.props.user_scores && (
+                    Object.keys(this.props.user_scores).length === 0 ? <img src="images/logo.png" alt=""/> :
+                    (this.props.user_scores && (
                         Object.keys(this.props.user_scores).map((score,index) =>{
                             return (<LeaderBoardItem key={score} user_score={this.props.user_scores[score]} index={index+1}/>)
                         })
-                    )
+                    ) )
                 }
+               
+                
 
                     
                 </div>

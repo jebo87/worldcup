@@ -1,0 +1,444 @@
+{
+  "fechas": {
+    "2018-06-03": {
+      "matches": {
+        "match1": {
+          "group": "X",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "rusia",
+          "teamB": "a. saudita",
+          "time": "11:00"
+        }
+      }
+    },
+    
+    "2018-06-08": {
+      "matches": {
+        "match1": {
+          "group": "X",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "alemania",
+          "teamB": "a. saudita",
+          "time": "13:30"
+        }
+      }
+    },
+    "2018-06-09": {
+      "matches": {
+        "match1": {
+          "group": "X",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "suecia",
+          "teamB": "peru",
+          "time": "13:15"
+        },
+        "match2": {
+          "group": "X",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "dinamarca",
+          "teamB": "mexico",
+          "time": "14:00"
+        },
+        "match3": {
+          "group": "X",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "tunez",
+          "teamB": "españa",
+          "time": "14:45"
+        }
+      }
+    },
+    "2018-06-14": {
+      "matches": {
+        "match1": {
+          "group": "A",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "rusia",
+          "teamB": "a. saudita",
+          "time": "11:00"
+        }
+      }
+    },
+    "2018-06-15": {
+      "matches": {
+        "match1": {
+          "group": "A",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "egipto",
+          "teamB": "uruguay",
+          "time": "08:00"
+        },
+        "match2": {
+          "group": "B",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          "scores": {
+
+
+          },
+          "teamA": "marruecos",
+          "teamB": "iran",
+          "time": "11:00"
+        },
+        "match3": {
+          "group": "B",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "portugal",
+          "teamB": "españa",
+          "time": "14:00"
+        }
+      }
+    },
+    "2018-06-16": {
+      "matches": {
+        "match1": {
+          "group": "C",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "francia",
+          "teamB": "australia",
+          "time": "06:00"
+        },
+        "match2": {
+          "group": "D",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "argentina",
+          "teamB": "islandia",
+          "time": "09:00"
+        },
+        "match3": {
+          "group": "C",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "peru",
+          "teamB": "dinamarca",
+          "time": "12:00"
+        },
+        "match4": {
+          "group": "D",
+          "match_score": {
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "croacia",
+          "teamB": "nigeria",
+          "time": "15:00"
+        }
+      }
+    },
+    "2018-06-17": {
+      "matches": {
+        "match1": {
+          "group": "E",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "costa rica",
+          "teamB": "serbia",
+          "time": "08:00"
+        },
+        "match2": {
+          "group": "F",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "alemania",
+          "teamB": "mexico",
+          "time": "11:00"
+        },
+        "match3": {
+          "group": "E",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "brasil",
+          "teamB": "suiza",
+          "time": "14:00"
+        }
+      }
+    },
+    "2018-06-18": {
+      "matches": {
+        "match1": {
+          "group": "F",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "suecia",
+          "teamB": "korea",
+          "time": "08:00"
+        },
+        "match2": {
+          "group": "G",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "belgica",
+          "teamB": "panama",
+          "time": "11:00"
+        },
+        "match3": {
+          "group": "G",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "tunez",
+          "teamB": "inglaterra",
+          "time": "12:00"
+        }
+      }
+    },
+    "2018-06-19": {
+      "matches": {
+        "match1": {
+          "group": "H",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "colombia",
+          "teamB": "japon",
+          "time": "08:00"
+        },
+        "match2": {
+          "group": "H",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+         
+          "teamA": "polonia",
+          "teamB": "senegal",
+          "time": "11:00"
+        },
+        "match3": {
+          "group": "A",
+          "match_score": {
+            "finished": false,
+            "scoreA": 0,
+            "scoreB": 0
+          },
+          
+          "teamA": "rusia",
+          "teamB": "egipto",
+          "time": "14:00"
+        }
+      }
+    },
+    "2018-06-20" : {
+      "matches" : {
+        "match1" : {
+          "group" : "B",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "portugal",
+          "teamB" : "marruecos",
+          "time" : "08:00"
+        },
+        "match2" : {
+          "group" : "A",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "uruguay",
+          "teamB" : "a. saudita",
+          "time" : "11:00"
+        },
+        "match3" : {
+          "group" : "B",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "iran",
+          "teamB" : "españa",
+          "time" : "14:00"
+        }
+      }
+    },
+    "2018-06-21" : {
+      "matches" : {
+        "match1" : {
+          "group" : "C",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "dinamarca",
+          "teamB" : "australia",
+          "time" : "08:00"
+        },
+        "match2" : {
+          "group" : "C",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "francia",
+          "teamB" : "peru",
+          "time" : "11:00"
+        },
+        "match3" : {
+          "group" : "D",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "argentina",
+          "teamB" : "croacia",
+          "time" : "14:00"
+        }
+      }
+    },
+    "2018-06-22" : {
+      "matches" : {
+        "match1" : {
+          "group" : "C",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "francia",
+          "teamB" : "australia",
+          "time" : "06:00"
+        },
+        "match2" : {
+          "group" : "D",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "argentina",
+          "teamB" : "islandia",
+          "time" : "09:00"
+        },
+        "match3" : {
+          "group" : "C",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "peru",
+          "teamB" : "dinamarca",
+          "time" : "12:00"
+        },
+        "match4" : {
+          "group" : "D",
+          "match_score" : {
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+         
+          "teamA" : "croacia",
+          "teamB" : "nigeria",
+          "time" : "15:00"
+        }
+      }
+    }
+  },
+  "points": {
+
+  },
+  "users": {
+   
+  }
+}

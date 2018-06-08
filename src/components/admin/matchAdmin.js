@@ -79,11 +79,15 @@ class MatchAdmin extends React.Component {
     }
     onScoreAChange = (e) => {
         const newVal = parseInt(e.target.value);
-        this.setState(() => ({ scoreA: newVal }));
+        if (/^[0-9]\d*$/.test(newVal)) {
+            this.setState(() => ({ scoreA: newVal }));
+        }
     }
     onScoreBChange = (e) => {
         const newVal = parseInt(e.target.value);
-        this.setState(() => ({ scoreB: newVal }));
+        if (/^[0-9]\d*$/.test(newVal)) {
+            this.setState(() => ({ scoreB: newVal }));
+        }
     }
 
     render() {
@@ -110,7 +114,7 @@ class MatchAdmin extends React.Component {
                 <div className="match_admin_country">
 
                     <img src={'images/' + this.props.match.teamB + '.png'} alt="" />
-                    <input type="text" defaultValue={this.props.match['match_score'].scoreB} onChange={this.onScoreBChange} />
+                    <input type="number" defaultValue={this.props.match['match_score'].scoreB} onChange={this.onScoreBChange} />
                     {this.props.match.teamB}
                 </div>
 

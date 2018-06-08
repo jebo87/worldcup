@@ -16,7 +16,8 @@
     opacity:0;
 }
 .ReactModal__Body--open {
-    overflow: hidden; 
+    overflow: hidden;
+ 
   }
 
 .modal {
@@ -133,6 +134,7 @@
             width: 10rem;
         }
         img{
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
             border:0;
             margin: 0 10rem;
         }
@@ -160,7 +162,7 @@
         .score_box {
             width: 58.7rem;
             height: 33.9rem;
-            background: $light_gray;
+            background: $light_gray_nt;
         }
         
        
@@ -183,7 +185,7 @@
         
         .flags{
             img{
-                
+                box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
                 margin: 0 5rem;
             }
     
