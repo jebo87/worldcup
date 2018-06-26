@@ -16,18 +16,29 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.1), 0 1px 5px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 3rem;
 }
-
+.sidenav {
+    height: 0;
+    width: 0;
+    display:none;
+    
+}
+.sidenav .closebtn {
+   display:none
+   
+}
 .header_responsive {
+    top:0;
     transition: height 0.25s ease-in;
 }
 
 .header_normal {
+    top:0;
     height: 7.2rem;
     transition: height 0.25s ease-out;
 }
 
 .links_responsive_hidden {
-    display: none
+    display: none;
 }
 
 .links_normal {
@@ -35,6 +46,8 @@
 }
 
 .header_icon {
+    height:7.2rem;
+    top:0;
     margin-right: auto;
     left: 0;
     display: none;
@@ -94,8 +107,9 @@
     .header_responsive {
         overflow: hidden;
         flex-direction: column;
+        flex-wrap: nowrap;
         margin-bottom: 1rem;
-        margin-top:0;
+        
     }
     .header_userleft {
         width: 100%;
@@ -132,5 +146,47 @@
     .links_responsive_visible{
         display: contents;
        
+    }
+    .links_responsive_hidden {
+        display: none;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        left: 0;
+        background-color: $salmon;
+        display: block;
+        
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 5rem;
+    }
+    .sidenav_expanded{
+        width: 25rem;
+    }
+    
+    .sidenav a {
+        padding: 0.2rem 1rem 0.2rem 3rem;
+        text-decoration: none;
+        font-size: 2rem;
+        color: $light_gray_nt;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        display: block;
+        top: -1rem;
+        right: 0rem;
+        font-size: 5rem;
+        margin-left: 3rem;
     }
 }

@@ -10,24 +10,9 @@ class MatchList extends React.Component {
     flagKeys = Object.keys({ ...flags });
     constructor(props) {
         super(props);
-        // this.state = {
-        //     serverTime: undefined
-        // }
+      
     }
 
-    componentDidMount = () => {
-        //we need to get the server time to show the matches that are editable
-        // fetch('https://us-central1-***REMOVED***.cloudfunctions.net/date?format=YYYY-MM-DD%20HH:mm')
-        //     .then((response) => (response.json())) //this is the promise
-        //     .then((responseJSON) => { //actual result
-        //         let serverDate = responseJSON['formattedDate'];
-        //         this.setState(() => ({ serverTime: moment(serverDate, 'YYYY-MM-DD HH:mm').format('YYYY-MM-DD HH:mm') }))
-
-        //     });
-
-
-
-    }
     render() {
         if (this.props.serverTime) {
             return (

@@ -30,6 +30,7 @@ class HomePage extends React.Component {
             .then((response) => (response.json())) //this is the promise
             .then((responseJSON) => { //actual result
                 let serverDate = responseJSON['formattedDate'];
+               console.log(serverDate);
                 this.setState(() => ({ serverTime: moment(serverDate, 'YYYY-MM-DD HH:mm').format('YYYY-MM-DD HH:mm') }))
             });
 

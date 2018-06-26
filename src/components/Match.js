@@ -63,7 +63,7 @@ class Match extends React.Component {
                             <img src={this.props.flag[0]} alt="" />
                             <p>{this.props.match.teamA}</p>
                         </div>
-                        <p className="match_score">{this.scores && this.scores.scoreA}</p>
+                        <span className="match_score">{this.scores && this.scores.scoreA}</span>
                     </div>
                     <div className="match_center">
                         <p>GRUPO {this.props.match.group}</p>
@@ -71,7 +71,7 @@ class Match extends React.Component {
                         <p className="time">{this.props.match.time}</p>
                     </div>
                     <div className="match_team">
-                        <p className="match_score match_score_right">{this.scores && this.scores.scoreB}</p>
+                        <span className="match_score match_score_right">{this.scores && this.scores.scoreB}</span>
                         <div className="match_country">
                             <img src={this.props.flag[1]} alt="" />
                             <p>{this.props.match.teamB}</p>

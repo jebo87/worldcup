@@ -20,8 +20,8 @@ const development = {
 };
 
 
-const firebaseApp = firebase.initializeApp(production);
-// const firebaseApp = firebase.initializeApp(development);
+// const firebaseApp = firebase.initializeApp(production);
+const firebaseApp = firebase.initializeApp(development);
 const database = firebase.database();
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 const facebookProvider = new firebase.auth.FacebookAuthProvider();

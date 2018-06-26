@@ -14,7 +14,7 @@ class MatchCompleted extends React.Component {
                             <img src={this.props.flag[0]} alt="" />
                             <p>{this.props.match.teamA}</p>
                         </div>
-                        <p className="match_score">{this.scores && this.scores.scoreA}</p>
+                        <span className="match_score">{this.scores && this.scores.scoreA}</span>
                     </div>
                     <div className="match_center">
                         <p>GRUPO A</p>
@@ -26,7 +26,7 @@ class MatchCompleted extends React.Component {
                             <img src={this.props.flag[1]} alt="" />
                             <p>{this.props.match.teamB}</p>
                         </div>
-                        <p className="match_score">{this.scores && this.scores.scoreB}</p>
+                        <span className="match_score">{this.scores && this.scores.scoreB}</span>
                     </div>
                 </div>
                 <div className="match_bottom">

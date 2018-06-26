@@ -31,7 +31,7 @@ class Header extends React.Component {
 
     }
 
-    reload(){
+    reload() {
         window.location.reload(true);
     }
     toggleMenu = () => {
@@ -46,14 +46,14 @@ class Header extends React.Component {
         return (
             <React.Fragment >
 
-                <div className={this.state.displayMenu ? 'header header_responsive ' : 'header header_normal'}>
+                <div className={this.state.displayMenu ? 'header header_responsive' : 'header header_normal'}>
 
 
                     <div className="header_userleft">
                         <a href="#" onClick={this.toggleMenu} className="header_icon">&#9776;</a>
                         <div className="name_pic">
-                        
-                       
+
+
                             {this.props.user.name || this.props.user.email}
                             {this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />}
                         </div>
@@ -69,7 +69,12 @@ class Header extends React.Component {
                         {this.props.user.userId && this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
                         {this.props.user.userId && <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>}
                     </div>
-                    <div className={this.state.displayMenu ? 'links_responsive_visible' : 'links_responsive_hidden'}>
+
+
+
+
+                    <div id="mySidenav" className={this.state.displayMenu ? 'sidenav sidenav_expanded':'sidenav' }>
+                        <a href="javascript:void(0)" className="closebtn" onClick={this.toggleMenu}>&times;</a>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
                         {
                             //this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
@@ -81,8 +86,8 @@ class Header extends React.Component {
 
 
                     <div className="header_userright">
-                    
-                       
+
+
 
                         {this.props.user.name || this.props.user.email}
                         {this.props.user.image && <img className="header_image" src={this.props.user.image || ball} alt="" />}
@@ -96,11 +101,12 @@ class Header extends React.Component {
             </React.Fragment>
         );
     }
-
+    unsubscribe = undefined;
     componentDidMount() {
+       
         const myDatabase = database;
-        firebaseApp.auth().onAuthStateChanged((user) => {
-
+        this.unsubscribe = firebaseApp.auth().onAuthStateChanged((user) => {
+           
             if (user) {
 
                 //We have to set the props so that the matches will show the results
@@ -123,6 +129,11 @@ class Header extends React.Component {
         });
 
 
+    }
+
+    componentWillUnmount(){
+        console.log('entro');
+        this.unsubscribe();
     }
 
 }
