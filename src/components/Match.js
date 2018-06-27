@@ -66,7 +66,7 @@ class Match extends React.Component {
                         <span className="match_score">{this.scores && this.scores.scoreA}</span>
                     </div>
                     <div className="match_center">
-                        <p>GRUPO {this.props.match.group}</p>
+                        <p>{this.props.match.group.length>1?false:'GRUPO'} {this.props.match.group}</p>
                         <p className="vs">vs</p>
                         <p className="time">{this.props.match.time}</p>
                     </div>

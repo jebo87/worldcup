@@ -34,17 +34,45 @@ class MatchAdmin extends React.Component {
             const match_score = match.match_score;
             if (match.scores) {
                 const scores = Object.keys(match.scores);
+                const point_phase ={
+                    "one":{
+                        "result_ok":5,
+                        "winning_team":2,
+                        "nothing":0
+                    },
+                    "two":{
+                        "result_ok":5,
+                        "winning_team":3,
+                        "nothing":0
+                    },
+                    "three":{
+                        "result_ok":8,
+                        "winning_team":5,
+                        "nothing":0
+                    },
+                    "four":{
+                        "result_ok":10,
+                        "winning_team":8,
+                        "nothing":0
+                    },
+                    "five":{
+                        "result_ok":10,
+                        "winning_team":8,
+                        "nothing":0
+                    }
+                }
+
                 scores.map((score) => {
                     let points = 0;
                     // console.log(match_score.scoreA + ' - ' + match_score.scoreB+'vs '+match.scores[score].scoreA +' - '+match.scores[score].scoreB);
                     points = ((match.scores[score].scoreA == match_score.scoreA) &&
-                        (match.scores[score].scoreB == match_score.scoreB)) ? 5 :
+                        (match.scores[score].scoreB == match_score.scoreB)) ? point_phase[this.props.phase]['result_ok'] :
                         (
                             match.scores[score].scoreA > match.scores[score].scoreB
-                                && match_score.scoreA > match_score.scoreB ? 2 : (
+                                && match_score.scoreA > match_score.scoreB ?  point_phase[this.props.phase]['winning_team'] : (
                                     match.scores[score].scoreB > match.scores[score].scoreA
-                                        && match_score.scoreB > match_score.scoreA ? 2 : (match.scores[score].scoreA == match.scores[score].scoreB
-                                            && match_score.scoreA == match_score.scoreB) ? 2 : 0
+                                        && match_score.scoreB > match_score.scoreA ?  point_phase[this.props.phase]['winning_team'] : (match.scores[score].scoreA == match.scores[score].scoreB
+                                            && match_score.scoreA == match_score.scoreB) ?  point_phase[this.props.phase]['winning_team'] :  point_phase[this.props.phase]['nothing']
                                 )
                         )
                     match.scores[score]['points'] = points;
@@ -130,7 +158,7 @@ class MatchAdmin extends React.Component {
 
 const mapStateToProps = (state, props) => {
     return {
-        user: state.user
+        user: state.user,
     }
 
 }

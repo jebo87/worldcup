@@ -44,7 +44,7 @@ class Header extends React.Component {
     render() {
 
         return (
-            <React.Fragment >
+            
 
                 <div className={this.state.displayMenu ? 'header header_responsive' : 'header header_normal'}>
 
@@ -61,9 +61,7 @@ class Header extends React.Component {
 
                     <div className="links_normal">
                         <NavLink className="header_links" to="/" exact={true}>Inicio</NavLink>
-                        {
-                            //this.props.user.userId && <NavLink className="header_links" to="/points" >Puntos</NavLink>
-                        }
+
                         {this.props.user.userId && <NavLink className="header_links" to="/leaderboard" >Posiciones</NavLink>}
 
                         {this.props.user.userId && this.props.user.admin === true && <NavLink className="header_links" to="/admin" >Admin</NavLink>}
@@ -73,7 +71,7 @@ class Header extends React.Component {
 
 
 
-                    <div id="mySidenav" className={this.state.displayMenu ? 'sidenav sidenav_expanded':'sidenav' }>
+                    <div id="mySidenav" className={this.state.displayMenu ? 'sidenav sidenav_expanded' : 'sidenav'}>
                         <a href="javascript:void(0)" className="closebtn" onClick={this.toggleMenu}>&times;</a>
                         <NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>Inicio</NavLink>
                         {
@@ -82,6 +80,7 @@ class Header extends React.Component {
                         {this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard" >Posiciones</NavLink>}
                         {this.props.user.userId && this.props.user.admin === true && <NavLink onClick={this.toggleMenu} className="header_links" to="/admin" >Admin</NavLink>}
                         {this.props.user.userId && <a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>Salir</a>}
+
                     </div>
 
 
@@ -98,15 +97,15 @@ class Header extends React.Component {
 
 
                 </div>
-            </React.Fragment>
+           
         );
     }
     unsubscribe = undefined;
     componentDidMount() {
-       
+
         const myDatabase = database;
         this.unsubscribe = firebaseApp.auth().onAuthStateChanged((user) => {
-           
+
             if (user) {
 
                 //We have to set the props so that the matches will show the results
@@ -131,7 +130,7 @@ class Header extends React.Component {
 
     }
 
-    componentWillUnmount(){
+    componentWillUnmount() {
         console.log('entro');
         this.unsubscribe();
     }

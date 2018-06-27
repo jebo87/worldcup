@@ -11,7 +11,14 @@ class AdminPage extends React.Component {
     matchDates = [];
     constructor(props) {
         super(props);
+        this.state = {
 
+            groups_hidden: true
+        }
+
+    }
+    toggleGroups = () => {
+        this.setState(() => ({ groups_hidden: !this.state.groups_hidden }))
     }
     componentDidMount() {
         if (this.props.user) {
@@ -20,7 +27,7 @@ class AdminPage extends React.Component {
             }
         }
 
-        
+
 
         if (this.matchDates.length === 0) {
             this.props.dispatch(startSetMatches());
@@ -36,7 +43,7 @@ class AdminPage extends React.Component {
         this.matchDates = Object.keys(this.props.fechas);
         return (
             <React.Fragment>
-              
+
                 <Header history={this.props.history} />
 
                 <div className="admin">
@@ -45,10 +52,26 @@ class AdminPage extends React.Component {
                 <div className="admin_scores">
                     <p> Hola {(this.props.user.name) && (this.props.user.name).split(' ')[0]}, al actualizar estos marcadores los puntos para los usuarios van a ser actualizados
              </p>
+                    <div className="home_page">
+                        <div className="group_phase">
+                            <span>Ocultar fase de grupos</span>
+
+                            <label className="switch">
+                                <input onChange={this.toggleGroups} type="checkbox" checked={this.state.groups_hidden} />
+                                <span className="slider"></span>
+                            </label>
+                        </div>
+                    </div>
                     <div className="admin_matches">
-                        {this.matchDates.map((fecha) =>
-                            (<FechaAdmin matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} flags={flags} />)
-                        )}
+                        {this.matchDates.map((fecha) => {
+                            if (this.state.groups_hidden && (!this.props.fechas[fecha].phase || this.props.fechas[fecha].phase === "one")) {
+                                return false;
+
+                            } else {
+                                return (<FechaAdmin phase={this.props.fechas[fecha].phase} matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} flags={flags} />)
+
+                            }
+                        })}
 
                     </div>
 

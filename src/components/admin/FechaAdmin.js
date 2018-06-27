@@ -14,7 +14,7 @@ const FechaAdmin = (props) => {
 
             {matchIds.map((matchId) => 
                  (
-                     <MatchAdmin match={props.matches[matchId]} fecha={props.fecha} matchId={matchId} key={matchId} flags={props.flags}/>
+                     <MatchAdmin phase={props.phase} match={props.matches[matchId]} fecha={props.fecha} matchId={matchId} key={matchId} flags={props.flags}/>
                     
                  )
             )}
