@@ -18,12 +18,12 @@ class SendScoreModal extends React.Component {
         };
     }
     componentWillMount() {
-        window.addEventListener('resize', this.handleWindowSizeChange);
+        
 
     }
 
     componentDidMount() {
-        
+        window.addEventListener('resize', this.handleWindowSizeChange);
 
 
     }

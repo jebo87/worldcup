@@ -1,9 +1,14 @@
 import React from 'react';
 import flags from '../helpers/flags';
 import {connect} from 'react-redux';
+import { startSetMatchScore } from '../actions/matchScoreActions';
+
 class MatchCompleted extends React.Component {
     user = this.props.user.userId;
     scores = this.props.match.scores?this.props.match.scores[this.user]:undefined;
+    loadMatchScores = () => {
+        this.props.dispatch(startSetMatchScore(this.props.match));
+    }
     render() {
         return (
             // Es mejor hacer dos componentes diferentes. uno para matches finalizados y otro para los demas
@@ -17,7 +22,7 @@ class MatchCompleted extends React.Component {
                         <span className="match_score">{this.scores && this.scores.scoreA}</span>
                     </div>
                     <div className="match_center">
-                        <p>GRUPO A</p>
+                        <p>{this.props.match.group.length>1?false:'GRUPO'} {this.props.match.group}</p>
                         <p className="vs">vs</p>
                         <p className="time">11:00AM</p>
                     </div>
@@ -41,6 +46,9 @@ class MatchCompleted extends React.Component {
                         Puntos obtenidos:
                      </div>
                     {this.scores&&this.scores.points || <span>0</span>}
+                    <div className="match_others_completed">
+                            <button className="button_nav_completed" onClick={this.loadMatchScores}>ver pronosticos</button>
+                        </div>
                 </div>
 
                 </div>

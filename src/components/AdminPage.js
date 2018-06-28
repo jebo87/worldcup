@@ -68,7 +68,7 @@ class AdminPage extends React.Component {
                                 return false;
 
                             } else {
-                                return (<FechaAdmin phase={this.props.fechas[fecha].phase} matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} flags={flags} />)
+                                return (<FechaAdmin phase={this.props.fechas[fecha].phase||"one"} matches={this.props.fechas[fecha].matches} fecha={fecha} key={fecha} flags={flags} />)
 
                             }
                         })}
