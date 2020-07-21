@@ -3511,7 +3511,51 @@
     "2018-07-02" : {
       "matches" : {
         "match1" : {
-          "group" : "X",
+          "group" : "Octavos de final",
+          
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "brasil",
+          "teamB" : "mexico",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
+          
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "belgica",
+          "teamB" : "japon",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "two"
+    },
+    "2018-07-03" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Octavos de final",
+          
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "suecia",
+          "teamB" : "suiza",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
           
           "match_score" : {
             "finished" : false,
@@ -3520,11 +3564,99 @@
           },
           
           "teamA" : "colombia",
-          "teamB" : "alemania",
+          "teamB" : "inglaterra",
           "time" : "14:00"
         }
       },
       "phase" : "two"
+    },
+    "2018-07-06" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "uruguay",
+          "teamB" : "francia",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "brasil",
+          "teamB" : "belgica",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "three"
+    },
+    "2018-07-07" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "suecia",
+          "teamB" : "inglaterra",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          
+          "teamA" : "rusia",
+          "teamB" : "croacia",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "three"
+    },
+    "2018-07-10" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Semifinal",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "francia",
+          "teamB" : "belgica",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "four"
+    },
+    "2018-07-11" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Semifinal",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "croacia",
+          "teamB" : "inglaterra",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "four"
     }
   },
   "points" : {

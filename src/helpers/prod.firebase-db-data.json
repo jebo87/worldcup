@@ -874,54 +874,75 @@
         "match1" : {
           "group" : "F",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 1,
             "scoreB" : 0
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 0
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 0
             },
             "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
               "scoreA" : 0,
               "scoreB" : 1
             },
             "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 3,
               "scoreB" : 0
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 0
             },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
             "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 1
             },
             "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 0
             },
             "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
               "scoreA" : 0,
               "scoreB" : 1
             },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 0
             }
           },
           "teamA" : "suecia",
@@ -931,53 +952,74 @@
         "match2" : {
           "group" : "G",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 3,
             "scoreB" : 0
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
               "scoreA" : 4,
               "scoreB" : 0
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
               "scoreA" : 4,
               "scoreB" : 1
             },
             "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 1
             },
             "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
               "scoreA" : 3,
               "scoreB" : 0
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 4,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
               "scoreA" : 3,
               "scoreB" : 0
             },
             "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 1
             },
             "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 5,
               "scoreA" : 3,
               "scoreB" : 0
             },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 5,
               "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 2,
               "scoreB" : 0
             }
           },
@@ -988,59 +1030,80 @@
         "match3" : {
           "group" : "G",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 2
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 2
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
               "scoreA" : 1,
               "scoreB" : 3
             },
             "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 2
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 2
             },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
             "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 3
             },
             "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 5,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
               "scoreA" : 0,
-              "scoreB" : 3
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
             }
           },
           "teamA" : "tunez",
           "teamB" : "inglaterra",
-          "time" : "12:00"
+          "time" : "14:00"
         }
       }
     },
@@ -1049,36 +1112,73 @@
         "match1" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
-              "scoreA" : 3,
+              "points" : 0,
+              "scoreA" : 2,
               "scoreB" : 1
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
               "scoreA" : 3,
               "scoreB" : 0
             },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 1
             },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
             "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 1
             }
@@ -1090,34 +1190,75 @@
         "match2" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 1
             },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 2
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
             },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
             }
           },
           "teamA" : "polonia",
@@ -1127,34 +1268,75 @@
         "match3" : {
           "group" : "A",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 3,
+            "scoreB" : 1
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
-              "scoreA" : 0,
+              "points" : 2,
+              "scoreA" : 2,
               "scoreB" : 1
             },
             "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
             },
-            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 2
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
               "scoreA" : 0,
               "scoreB" : 1
             },
             "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
               "scoreA" : 2,
-              "scoreB" : 2
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 5,
+              "scoreA" : 3,
+              "scoreB" : 1
             }
           },
           "teamA" : "rusia",
@@ -1168,24 +1350,68 @@
         "match1" : {
           "group" : "B",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 1,
             "scoreB" : 0
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
-              "scoreA" : 2,
-              "scoreB" : 0
-            },
-            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 1
             },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
               "scoreA" : 2,
               "scoreB" : 0
             }
@@ -1197,25 +1423,74 @@
         "match2" : {
           "group" : "A",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 1,
             "scoreB" : 0
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
               "scoreA" : 3,
               "scoreB" : 0
             },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
               "scoreA" : 4,
               "scoreB" : 0
             },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 4,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
               "scoreA" : 4,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 3,
               "scoreB" : 0
             }
           },
@@ -1226,26 +1501,75 @@
         "match3" : {
           "group" : "B",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 1
           },
           "scores" : {
             "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
-              "scoreA" : 2,
-              "scoreB" : 0
-            },
-            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 3
             },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 3
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
               "scoreA" : 0,
               "scoreB" : 3
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 5
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
             }
           },
           "teamA" : "iran",
@@ -1259,22 +1583,75 @@
         "match1" : {
           "group" : "C",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
           },
           "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
-              "scoreA" : 2,
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
               "scoreB" : 0
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
               "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
               "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
             }
           },
           "teamA" : "dinamarca",
@@ -1284,21 +1661,74 @@
         "match2" : {
           "group" : "C",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 1,
             "scoreB" : 0
           },
           "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 2
+            },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
               "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
               "scoreB" : 2
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
               "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 2,
               "scoreB" : 1
             }
           },
@@ -1309,22 +1739,75 @@
         "match3" : {
           "group" : "D",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 3
           },
           "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
             "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
-              "scoreA" : 1,
-              "scoreB" : 2
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
             },
             "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
               "scoreA" : 1,
               "scoreB" : 1
             },
             "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
               "scoreA" : 2,
               "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
             }
           },
           "teamA" : "argentina",
@@ -1338,9 +1821,76 @@
         "match1" : {
           "group" : "E",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 2,
             "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 4,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            }
           },
           "teamA" : "brasil",
           "teamB" : "costa rica",
@@ -1349,9 +1899,76 @@
         "match2" : {
           "group" : "D",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 2,
             "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            }
           },
           "teamA" : "nigeria",
           "teamB" : "islandia",
@@ -1360,9 +1977,76 @@
         "match3" : {
           "group" : "E",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            }
           },
           "teamA" : "serbia",
           "teamB" : "suiza",
@@ -1375,9 +2059,76 @@
         "match1" : {
           "group" : "G",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 5,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
           },
           "teamA" : "belgica",
           "teamB" : "tunez",
@@ -1386,9 +2137,76 @@
         "match2" : {
           "group" : "F",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            }
           },
           "teamA" : "korea",
           "teamB" : "mexico",
@@ -1397,9 +2215,76 @@
         "match3" : {
           "group" : "E",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 4,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            }
           },
           "teamA" : "alemania",
           "teamB" : "suecia",
@@ -1412,9 +2297,76 @@
         "match1" : {
           "group" : "G",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 6,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 0
+            }
           },
           "teamA" : "inglaterra",
           "teamB" : "panama",
@@ -1423,9 +2375,76 @@
         "match2" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 3
+            }
           },
           "teamA" : "japon",
           "teamB" : "senegal",
@@ -1434,9 +2453,76 @@
         "match3" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 3
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 3
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "polonia",
           "teamB" : "colombia",
@@ -1449,9 +2535,76 @@
         "match1" : {
           "group" : "A",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 3,
             "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 3
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            }
           },
           "teamA" : "uruguay",
           "teamB" : "rusia",
@@ -1460,9 +2613,76 @@
         "match2" : {
           "group" : "A",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            }
           },
           "teamA" : "a. saudita",
           "teamB" : "egipto",
@@ -1471,9 +2691,76 @@
         "match3" : {
           "group" : "B",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            }
           },
           "teamA" : "españa",
           "teamB" : "marruecos",
@@ -1482,8 +2769,76 @@
         "match4" : {
           "group" : "B",
           "match_score" : {
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 3
+            }
           },
           "teamA" : "iran",
           "teamB" : "portugal",
@@ -1496,9 +2851,76 @@
         "match1" : {
           "group" : "C",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            }
           },
           "teamA" : "australia",
           "teamB" : "peru",
@@ -1507,9 +2929,76 @@
         "match2" : {
           "group" : "C",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
             "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "dinamarca",
           "teamB" : "francia",
@@ -1518,9 +3007,76 @@
         "match3" : {
           "group" : "D",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "nigeria",
           "teamB" : "argentina",
@@ -1529,8 +3085,76 @@
         "match4" : {
           "group" : "D",
           "match_score" : {
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            }
           },
           "teamA" : "islandia",
           "teamB" : "croacia",
@@ -1543,9 +3167,71 @@
         "match1" : {
           "group" : "F",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
+            "finished" : true,
+            "scoreA" : 2,
             "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "korea",
           "teamB" : "alemania",
@@ -1554,9 +3240,71 @@
         "match2" : {
           "group" : "F",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 3
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            }
           },
           "teamA" : "mexico",
           "teamB" : "suecia",
@@ -1565,9 +3313,76 @@
         "match3" : {
           "group" : "E",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 4
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            }
           },
           "teamA" : "serbia",
           "teamB" : "brasil",
@@ -1576,8 +3391,76 @@
         "match4" : {
           "group" : "E",
           "match_score" : {
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            }
           },
           "teamA" : "suiza",
           "teamB" : "costa rica",
@@ -1590,9 +3473,76 @@
         "match1" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            }
           },
           "teamA" : "japon",
           "teamB" : "polonia",
@@ -1601,9 +3551,76 @@
         "match2" : {
           "group" : "H",
           "match_score" : {
-            "finished" : false,
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "senegal",
           "teamB" : "colombia",
@@ -1612,9 +3629,76 @@
         "match3" : {
           "group" : "G",
           "match_score" : {
-            "finished" : false,
-            "scoreA" : 0,
-            "scoreB" : 0
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 3
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 0,
+              "scoreB" : 2
+            }
           },
           "teamA" : "panama",
           "teamB" : "tunez",
@@ -1623,86 +3707,1298 @@
         "match4" : {
           "group" : "G",
           "match_score" : {
+            "finished" : true,
             "scoreA" : 0,
-            "scoreB" : 0
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 4
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 2,
+              "scoreA" : 1,
+              "scoreB" : 2
+            }
           },
           "teamA" : "inglaterra",
           "teamB" : "belgica",
-          "time" : "15:00"
+          "time" : "14:00"
         }
       }
+    },
+    "2018-06-30" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 4,
+            "scoreB" : 3
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 3,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 3,
+              "scoreA" : 1,
+              "scoreB" : 0
+            }
+          },
+          "teamA" : "francia",
+          "teamB" : "argentina",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "uruguay",
+          "teamB" : "portugal",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "two"
+    },
+    "2018-07-01" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            }
+          },
+          "teamA" : "españa",
+          "teamB" : "rusia",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "croacia",
+          "teamB" : "dinamarca",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "two"
+    },
+    "2018-07-02" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 2,
+            "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 3,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "brasil",
+          "teamB" : "mexico",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 3,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 3,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 3,
+              "scoreA" : 3,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "belgica",
+          "teamB" : "japon",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "two"
+    },
+    "2018-07-03" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 3,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "suecia",
+          "teamB" : "suiza",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Octavos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 0
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "colombia",
+          "teamB" : "inglaterra",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "two"
+    },
+    "2018-07-06" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 0,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 3
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            }
+          },
+          "teamA" : "uruguay",
+          "teamB" : "francia",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 8,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 8,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 5,
+              "scoreA" : 2,
+              "scoreB" : 3
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 3
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 3,
+              "scoreB" : 2
+            }
+          },
+          "teamA" : "brasil",
+          "teamB" : "belgica",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "three"
+    },
+    "2018-07-07" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 0,
+            "scoreB" : 2
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 8,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 5,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 8,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "suecia",
+          "teamB" : "inglaterra",
+          "time" : "10:00"
+        },
+        "match2" : {
+          "group" : "Cuartos de final",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 3
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 8,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 5,
+              "scoreA" : 0,
+              "scoreB" : 0
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 8,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 2
+            }
+          },
+          "teamA" : "rusia",
+          "teamB" : "croacia",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "three"
+    },
+    "2018-07-10" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Semifinal",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 0
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 8,
+              "scoreA" : 3,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 8,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 8,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 8,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 8,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "francia",
+          "teamB" : "belgica",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "four"
+    },
+    "2018-07-11" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Semifinal",
+          "match_score" : {
+            "finished" : true,
+            "scoreA" : 1,
+            "scoreB" : 1
+          },
+          "scores" : {
+            "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
+              "points" : 0,
+              "scoreA" : 0,
+              "scoreB" : 1
+            },
+            "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
+              "points" : 10,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
+              "points" : 10,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            },
+            "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 2
+            },
+            "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
+              "points" : 10,
+              "scoreA" : 1,
+              "scoreB" : 1
+            },
+            "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
+              "points" : 0,
+              "scoreA" : 1,
+              "scoreB" : 0
+            },
+            "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
+              "points" : 0,
+              "scoreA" : 2,
+              "scoreB" : 1
+            }
+          },
+          "teamA" : "croacia",
+          "teamB" : "inglaterra",
+          "time" : "14:00"
+        }
+      },
+      "phase" : "four"
+    },
+    "2018-07-14" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "belgica",
+          "teamB" : "inglaterra",
+          "time" : "10:00"
+        }
+      },
+      "phase" : "five"
+    },
+    "2018-07-15" : {
+      "matches" : {
+        "match1" : {
+          "group" : "Final",
+          "match_score" : {
+            "finished" : false,
+            "scoreA" : 0,
+            "scoreB" : 0
+          },
+          "teamA" : "francia",
+          "teamB" : "croacia",
+          "time" : "11:00"
+        }
+      },
+      "phase" : "five"
     }
   },
   "points" : {
     "3hKFcb6jfBVKPFzsO3nM1qnEce22" : {
       "image" : "https://graph.facebook.com/10160538961510215/picture",
       "name" : "Francisco Cuellar",
-      "points" : 13
+      "points" : 93
     },
     "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
       "image" : "https://lh3.googleusercontent.com/-Sv9ZLpnxL2Q/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq3hL9mJXCnNNffJQB3nzmahlWkr2g/mo/photo.jpg",
-      "name" : "Nelson Valencia Narvaez",
-      "points" : 15
+      "name" : "Nelson Valencia",
+      "points" : 86
     },
     "ERxNOtx0GSPABLA5zBeBx2QQqvw2" : {
       "image" : "https://graph.facebook.com/10155574961906439/picture",
       "name" : "Judy Rodriguez",
-      "points" : 8
+      "points" : 91
     },
     "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
       "image" : "https://graph.facebook.com/10212268544170400/picture",
-      "name" : "Gladys Gonzalez Montoya",
-      "points" : 12
+      "name" : "Gladys Gonzalez",
+      "points" : 80
     },
     "Jhz890GP3QWddS5eBUlaI9FEe6Z2" : {
       "image" : "https://graph.facebook.com/2125968660779041/picture",
       "name" : "Jhonny Roman",
-      "points" : 11
+      "points" : 93
     },
     "NLiKwvxbO3XEyMH5yaZ53xpxg5o1" : {
       "image" : "https://graph.facebook.com/10155574957538133/picture",
       "name" : "Mauricio Luna",
-      "points" : 12
+      "points" : 91
     },
     "OamN4VxdTuYb361vlCRsiU9NYTg1" : {
       "image" : "https://graph.facebook.com/10156317345832674/picture",
       "name" : "Edwin Ramos",
-      "points" : 11
-    },
-    "RDJ7WMXdpldoUoLzjGEpHCRzj8b2" : {
-      "image" : "https://lh4.googleusercontent.com/-4vNmqDInfAg/AAAAAAAAAAI/AAAAAAAAABs/YKLrve1G7nQ/photo.jpg",
-      "name" : "Luis Alfredo Rodriguez",
-      "points" : 0
+      "points" : 101
     },
     "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
       "image" : "https://graph.facebook.com/10160578398160038/picture",
-      "name" : "David Alejandro Jordan Beghelli",
-      "points" : 8
+      "name" : "David Jordan",
+      "points" : 96
     },
     "UhRKrVshi7SjwuWSbYqhDEEb9dQ2" : {
       "image" : "https://lh4.googleusercontent.com/-5hXEomHzpqs/AAAAAAAAAAI/AAAAAAAAARo/P_SJ1j1jVd4/photo.jpg",
       "name" : "Viviana Torres",
-      "points" : 6
+      "points" : 78
     },
     "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
       "image" : "https://lh5.googleusercontent.com/-FO7ZEmRThco/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq0jl_jofAc6LikiP7pcpKOlxPa-iQ/mo/photo.jpg",
-      "name" : "Giovanny Ardila Guevara",
-      "points" : 10
+      "name" : "Giovanny Ardila",
+      "points" : 106
     },
     "a1IhDgfBl2Zo5pEi5vKMTZ3gLxk1" : {
       "image" : "https://lh6.googleusercontent.com/-C2zgzYm77gs/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq2nWwBSPIrrsulCjN6vSuh4z4jHCw/mo/photo.jpg",
       "name" : "Magda C",
-      "points" : 13
+      "points" : 92
     },
     "lyep4sRUPzdHjirSzGuwhUjjHLy1" : {
       "image" : "https://graph.facebook.com/10160337006900277/picture",
       "name" : "Jorge Bautista",
-      "points" : 6
+      "points" : 69
     },
     "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
       "image" : "https://graph.facebook.com/1859233947429961/picture",
-      "name" : "Lilo Mejía Sánchez",
-      "points" : 13
+      "name" : "Lilo Mejía",
+      "points" : 94
     }
   },
   "users" : {
@@ -1716,7 +5012,7 @@
     "6pB0yLmsD8bHlxKfRPx52MRsU8Q2" : {
       "email" : "nelenvana@gmail.com",
       "image" : "https://lh3.googleusercontent.com/-Sv9ZLpnxL2Q/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq3hL9mJXCnNNffJQB3nzmahlWkr2g/mo/photo.jpg",
-      "name" : "Nelson Valencia Narvaez",
+      "name" : "Nelson Valencia",
       "type" : "regular",
       "userId" : "6pB0yLmsD8bHlxKfRPx52MRsU8Q2"
     },
@@ -1730,7 +5026,7 @@
     "Gqu3CEAUggVXI5aLpsMqccSohHm2" : {
       "email" : "glagomon61@hotmail.com",
       "image" : "https://graph.facebook.com/10212268544170400/picture",
-      "name" : "Gladys Gonzalez Montoya",
+      "name" : "Gladys Gonzalez",
       "type" : "regular",
       "userId" : "Gqu3CEAUggVXI5aLpsMqccSohHm2"
     },
@@ -1755,17 +5051,10 @@
       "type" : "regular",
       "userId" : "OamN4VxdTuYb361vlCRsiU9NYTg1"
     },
-    "RDJ7WMXdpldoUoLzjGEpHCRzj8b2" : {
-      "email" : "luisalfredo85@gmail.com",
-      "image" : "https://lh4.googleusercontent.com/-4vNmqDInfAg/AAAAAAAAAAI/AAAAAAAAABs/YKLrve1G7nQ/photo.jpg",
-      "name" : "Luis Alfredo Rodriguez",
-      "type" : "regular",
-      "userId" : "RDJ7WMXdpldoUoLzjGEpHCRzj8b2"
-    },
     "RKLpPmg38whwRSrbAYfTQJrZXUm2" : {
       "email" : "davidjordan594@hotmail.com",
       "image" : "https://graph.facebook.com/10160578398160038/picture",
-      "name" : "David Alejandro Jordan Beghelli",
+      "name" : "David Jordan",
       "type" : "regular",
       "userId" : "RKLpPmg38whwRSrbAYfTQJrZXUm2"
     },
@@ -1779,7 +5068,7 @@
     "ZwecgPpUHWbJPJELcMzlGuS1Lfl1" : {
       "email" : "giovannyardila@gmail.com",
       "image" : "https://lh5.googleusercontent.com/-FO7ZEmRThco/AAAAAAAAAAI/AAAAAAAAAAA/AB6qoq0jl_jofAc6LikiP7pcpKOlxPa-iQ/mo/photo.jpg",
-      "name" : "Giovanny Ardila Guevara",
+      "name" : "Giovanny Ardila",
       "type" : "regular",
       "userId" : "ZwecgPpUHWbJPJELcMzlGuS1Lfl1"
     },
@@ -1800,7 +5089,7 @@
     "vwxjPUfQQoY2AwcNkLV0ryx2i832" : {
       "email" : "lilomejia8827@hotmail.com",
       "image" : "https://graph.facebook.com/1859233947429961/picture",
-      "name" : "Lilo Mejía Sánchez",
+      "name" : "Lilo Mejía",
       "type" : "regular",
       "userId" : "vwxjPUfQQoY2AwcNkLV0ryx2i832"
     }
