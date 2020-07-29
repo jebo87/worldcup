@@ -1,22 +1,21 @@
 import firebase from 'firebase';
-//THIS IS A PERSONAL PRIVATE PROJECT. THIS SHOULD NEVER BE DONE IN PRODUCTION
-//ENVIRONMENT VARIABLES SHOULD BE USED.
+
 const production = {
-	apiKey: '***REMOVED***',
-	authDomain: '***REMOVED***',
-	databaseURL: '***REMOVED***',
-	projectId: '***REMOVED***',
-	storageBucket: '***REMOVED***.appspot.com',
-	messagingSenderId: '***REMOVED***'
+	apiKey: process.env.API_KEY_PROD,
+	authDomain: process.env.AUTH_DOMAIN_PROD,
+	databaseURL: process.env.DATABASE_URL_PROD,
+	projectId: process.env.PROJECT_ID_PROD,
+	storageBucket: process.env.STORAGE_BUCKET_PROD,
+	messagingSenderId: process.env.MESSAGE_SENDER_ID_PROD
 };
 
 const development = {
-	apiKey: '***REMOVED***',
-	authDomain: '***REMOVED***',
-	databaseURL: '***REMOVED***',
-	projectId: '***REMOVED***',
-	storageBucket: '***REMOVED***.appspot.com',
-	messagingSenderId: '***REMOVED***'
+	apiKey: process.env.API_KEY_DEV,
+	authDomain: process.env.AUTH_DOMAIN_DEV,
+	databaseURL: process.env.DATABASE_URL_DEV,
+	projectId: process.env.PROJECT_ID_DEV,
+	storageBucket: process.env.STORAGE_BUCKET_DEV,
+	messagingSenderId: process.env.MESSAGE_SENDER_ID_DEV
 };
 
 // const firebaseApp = firebase.initializeApp(production);
