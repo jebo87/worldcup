@@ -1,18 +1,16 @@
-html{
-    font-size: 62.5%;
-   
+html {
+	font-size: 62.5%;
 }
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
-    background: url('../images/BG.png');
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+	background: url('../images/BG.png');
 }
 
-button{
-    cursor: pointer;
+button {
+	cursor: pointer;
 }
 
-button:disabled{
-    cursor: default;
+button:disabled {
+	cursor: default;
 }
-

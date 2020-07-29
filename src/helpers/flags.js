@@ -1,15 +1,15 @@
 import argentina from '../images/argentina.png';
 import alemania from '../images/alemania.png';
-import asau from '../images/a. saudita.png';
+import a_saudita from '../images/a. saudita.png';
 import australia from '../images/australia.png';
 import belgica from '../images/belgica.png';
 import brasil from '../images/brasil.png';
 import colombia from '../images/colombia.png';
-import crica from '../images/costa rica.png';
+import costa_rica from '../images/costa rica.png';
 import croacia from '../images/croacia.png';
 import dinamarca from '../images/dinamarca.png';
 import egipto from '../images/egipto.png';
-import espana from '../images/españa.png';
+import españa from '../images/españa.png';
 import francia from '../images/francia.png';
 import inglaterra from '../images/inglaterra.png';
 import iran from '../images/iran.png';
@@ -33,48 +33,41 @@ import uruguay from '../images/uruguay.png';
 import refresh from '../images/refresh.png';
 import logo from '../images/logo.png';
 
-
-
-
 const flags = {
-argentina,
-alemania ,
-asau ,
-australia ,
-belgica ,
-brasil ,
-colombia ,
-crica ,
-croacia ,
-dinamarca ,
-egipto ,
-espana ,
-francia ,
-inglaterra,
-iran ,
-islandia ,
-japon ,
-korea ,
-marruecos ,
-mexico ,
-nigeria,
-panama ,
-peru ,
-polonia ,
-portugal,
-rusia ,
-senegal ,
-serbia,
-suecia ,
-suiza ,
-tunez ,
-uruguay ,
-refresh ,
-logo 
-
- }
-
-
-
+	argentina,
+	alemania,
+	a_saudita,
+	australia,
+	belgica,
+	brasil,
+	colombia,
+	costa_rica,
+	croacia,
+	dinamarca,
+	egipto,
+	españa,
+	francia,
+	inglaterra,
+	iran,
+	islandia,
+	japon,
+	korea,
+	marruecos,
+	mexico,
+	nigeria,
+	panama,
+	peru,
+	polonia,
+	portugal,
+	rusia,
+	senegal,
+	serbia,
+	suecia,
+	suiza,
+	tunez,
+	uruguay,
+	refresh,
+	logo
+};
 
 export default flags;
