@@ -1,27 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Anton');
-$dark_gray: rgba(#D1D1D1,0.5);
-$light_gray: rgba(#f8f8f8,0.4);
-$light_gray_nt: rgba(#f8f8f8,1);
-// $salmon:#F75A6A; //salmon claro
-// $salmon:#0288D1; //azul
-// $salmon:#E65100; //naranja
-// $salmon:#FF5252; //salmon
-// $salmon:#C62828; //rojo vinotinto
-$salmon:#880E4F; //uva
+$dark_gray: rgba(#d1d1d1, 0.5);
+$light_gray: rgba(#f8f8f8, 0.4);
+$light_gray_nt: rgba(#f8f8f8, 1);
+// $salmon: #f75a6a; //salmon claro
+$salmon: #0288d1; //azul
+// $salmon: #e65100; //naranja
+// $salmon: #ff5252; //salmon
+// $salmon: #c62828; //rojo vinotinto
+// $salmon: #880e4f; //uva
 
-
-
-
-$lime_green:#79A70A;
-$lime_green_light:#9BC90D;
-$font_gray:#555555;
-$card_gray:rgba(#D8D8D8,0.5);
-
-
+$lime_green: #79a70a;
+$lime_green_light: #9bc90d;
+$font_gray: #555555;
+$card_gray: rgba(#d8d8d8, 0.5);
 
 //fonts
-$anton:'Anton', 'sans-serif';
+$anton: 'Anton', 'sans-serif';
 
 //screen size
-$mobile:639px;
-$mobile_wide:475px;
+$mobile: 639px;
+$mobile_wide: 475px;

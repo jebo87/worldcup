@@ -20,7 +20,7 @@ class MatchList extends React.Component {
 						{this.matchKeys.map((thisMatch) => {
 							var teamA = this.props.matches[thisMatch].teamA;
 							let teamB = this.props.matches[thisMatch].teamB;
-							console.log(teamA);
+
 							teamA =
 								teamA === 'a. saudita' ? 'a_saudita' : teamA === 'costa rica' ? 'costa_rica' : teamA;
 							teamB =

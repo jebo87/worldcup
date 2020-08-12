@@ -55,14 +55,14 @@ class SendScoreModal extends React.Component {
 		this.props.score.scoreB !== 0
 			? this.setState(() => ({ scoreB: this.props.score.scoreB }))
 			: this.setState(() => ({ scoreB: 0 }));
-		fetch('https://us-central1-***REMOVED***.cloudfunctions.net/date?format=YYYY-MM-DD%20HH:mm')
+		fetch('http://www.elbauto.com:8090/time')
 			.then((response) => response.json()) //this is the promise
 			.then((responseJSON) => {
 				//actual result
-				let serverDate = responseJSON['formattedDate'];
+				let serverDate = responseJSON['datetime'];
 				const serverTime = moment('' + serverDate, 'YYYY-MM-DD HH:mm');
 				const matchTime = moment(this.props.score.fecha + ' ' + this.props.score.time, 'YYYY-MM-DD HH:mm');
-
+				console.log(serverDate, serverTime, matchTime);
 				if (serverTime.isSameOrBefore(matchTime)) {
 					this.setState(() => ({ matchEnabled: true }));
 				} else {
@@ -169,7 +169,7 @@ class SendScoreModal extends React.Component {
 							</div>
 
 							<button className="pink_button" onClick={this.sendScore}>
-								enviar pronostico
+								send your score
 							</button>
 						</div>
 					</Modal>

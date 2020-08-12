@@ -3,8 +3,8 @@ This is a React App I built when I first started learning ReactJS. It allows you
 
 This app currently lives in (http://rusia.makakolabs.ca), you can check it out by using the following credentials:
 
-username: xxxxxxx@gmail.com
-Password: 1234567
+username: test@gmail.com
+Password: test123
 
 Users can also join using Facebook or Gmail.
 
