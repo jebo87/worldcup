@@ -10,6 +10,7 @@ import moment from 'moment';
 import MatchScores from './MatchScores';
 import { startSetMatchScore } from '../actions/matchScoreActions';
 import { startSetPhase } from '../actions/phaseActions';
+const https = require('https');
 class HomePage extends React.Component {
 	loading = true;
 
@@ -30,7 +31,12 @@ class HomePage extends React.Component {
 		this.props.dispatch(startSetMatches());
 		// this.props.dispatch(startSetPhase());
 
-		fetch('http://www.elbauto.com:8090/time')
+		fetch(process.env.REACT_APP_TIME_SERVER, {
+			method: 'GET',
+			agent: new https.Agent({
+				rejectUnauthorized: false
+			})
+		})
 			.then((response) => response.json()) //this is the promise
 			.then((responseJSON) => {
 				console.log(responseJSON);

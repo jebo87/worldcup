@@ -25,3 +25,4 @@ yarn-error.log*
 set_env.sh
 node_modules/
 .firebaserc
+.vercel

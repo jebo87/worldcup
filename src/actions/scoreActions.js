@@ -1,6 +1,7 @@
 import database from '../helpers/database';
 import { startSetMatches } from './matchesActions';
 import moment from 'moment';
+const https = require('https');
 
 export const setScore = (score) => ({
 	type: 'SET_SCORE',
@@ -20,10 +21,13 @@ export const startSetScore = (score) => {
 			method: 'GET',
 			headers: myHeaders,
 			mode: 'cors',
-			cache: 'default'
+			cache: 'default',
+			agent: new https.Agent({
+				rejectUnauthorized: false
+			})
 		};
 
-		const myRequest = new Request('http://www.elbauto.com:8090/time', myInit);
+		const myRequest = new Request(process.env.REACT_APP_TIME_SERVER, myInit);
 		let serverTime = undefined;
 
 		fetch(myRequest)

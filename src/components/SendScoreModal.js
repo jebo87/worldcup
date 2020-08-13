@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { setScore, startSetScore } from '../actions/scoreActions';
 import moment from 'moment';
-
+const https = require('https');
 Modal.setAppElement('#root');
 class SendScoreModal extends React.Component {
 	constructor(props) {
@@ -55,7 +55,12 @@ class SendScoreModal extends React.Component {
 		this.props.score.scoreB !== 0
 			? this.setState(() => ({ scoreB: this.props.score.scoreB }))
 			: this.setState(() => ({ scoreB: 0 }));
-		fetch('http://www.elbauto.com:8090/time')
+		fetch(process.env.REACT_APP_TIME_SERVER, {
+			method: 'GET',
+			agent: new https.Agent({
+				rejectUnauthorized: false
+			})
+		})
 			.then((response) => response.json()) //this is the promise
 			.then((responseJSON) => {
 				//actual result

@@ -51,7 +51,7 @@ class MatchScores extends React.Component {
 									})}
 							</div>
 							<button className="ms_close" onClick={this.props.closeModal}>
-								cerrar
+								close
 							</button>
 						</div>
 					</AriaModal>

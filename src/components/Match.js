@@ -84,12 +84,12 @@ class Match extends React.Component {
 					{this.scores &&
 					!this.props.match.finished && (
 						<div className="ribbon">
-							<span>enviado</span>
+							<span>sent</span>
 						</div>
 					)}
 					{this.props.match.finished && (
 						<div className="ribbon ribbon_pink">
-							<span>finalizado</span>
+							<span>finished</span>
 						</div>
 					)}
 					{!this.state.matchEnabled ? (
