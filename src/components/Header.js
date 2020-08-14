@@ -82,14 +82,14 @@ class Header extends React.Component {
 						&times;
 					</button>
 					<NavLink onClick={this.toggleMenu} className="header_links" to="/" exact={true}>
-						Inicio
+						Home
 					</NavLink>
 					{
 						//this.props.user.userId && <NavLink onClick={this.toggleMenu} className="header_links" to="/points" >Puntos</NavLink>
 					}
 					{this.props.user.userId && (
 						<NavLink onClick={this.toggleMenu} className="header_links" to="/leaderboard">
-							Posiciones
+							Leaderboard
 						</NavLink>
 					)}
 					{this.props.user.userId &&
@@ -100,7 +100,7 @@ class Header extends React.Component {
 					)}
 					{this.props.user.userId && (
 						<a className="header_links" onClick={this.logout} style={{ cursor: 'pointer' }}>
-							Salir
+							Logout
 						</a>
 					)}
 				</div>

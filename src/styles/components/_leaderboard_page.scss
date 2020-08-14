@@ -1,20 +1,20 @@
-.leaderboard{
-    text-align:center;
-    font-family: $anton;
-    h1{
-        color:$salmon;
-        text-transform: uppercase;
-        font-size: 3.5rem;
-        
-    }
+.leaderboard {
+	text-align: center;
+	font-family: $anton;
+	h1 {
+		color: $salmon;
+		text-transform: uppercase;
+		font-size: 3.5rem;
+	}
 
-    .lb_table{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-       
-    }
-    
+	.lb_table {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		img {
+			margin: 0 auto;
+		}
+	}
 }
